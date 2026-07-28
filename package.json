@@ -1,0 +1,13 @@
+{
+  "name": "thrr-i-pmdata",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Figure reproduction for the tHRR-I PMData method-development study",
+  "type": "module",
+  "scripts": {
+    "figures": "node build_improved_figures.mjs"
+  },
+  "dependencies": {
+    "sharp": "0.34.5"
+  }
+}

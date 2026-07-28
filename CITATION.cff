@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software or its derived outputs, please cite the archived release and the PMData source paper."
+title: "tHRR-I-PMData: code and derived results for a tail-sensitive normalized heart-rate-reserve index"
+type: software
+authors:
+  - family-names: Cai
+    given-names: Botao
+    affiliation: "College of Physical Education, Jimei University"
+version: 1.0.0
+date-released: 2026-07-29
+license: MIT
+repository-code: "https://github.com/xcai66/tHRR-I-PMData"
+keywords:
+  - heart rate reserve
+  - internal training load
+  - running
+  - wearable sensors
+  - perceived exertion
+  - nested cross-validation

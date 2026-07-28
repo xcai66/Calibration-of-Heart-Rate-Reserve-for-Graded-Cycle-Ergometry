@@ -1,0 +1,22 @@
+{
+  "title": "tHRR-I-PMData: code and derived results for a tail-sensitive normalized heart-rate-reserve index",
+  "description": "Reproducible code, frozen derived results, and figures for exploratory method development and nested participant-level evaluation of tHRR-I in PMData. Raw PMData files are not redistributed.",
+  "upload_type": "software",
+  "creators": [
+    {
+      "name": "Cai, Botao",
+      "affiliation": "College of Physical Education, Jimei University"
+    }
+  ],
+  "access_right": "open",
+  "license": "mit-license",
+  "keywords": [
+    "heart rate reserve",
+    "internal training load",
+    "running",
+    "wearable sensors",
+    "perceived exertion",
+    "nested cross-validation"
+  ],
+  "version": "1.0.0"
+}
