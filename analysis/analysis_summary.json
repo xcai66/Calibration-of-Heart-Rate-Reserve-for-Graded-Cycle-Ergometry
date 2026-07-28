@@ -1,0 +1,193 @@
+{
+  "primary_sessions": 255,
+  "primary_participants": 15,
+  "participants_with_at_least_5_sessions": 9,
+  "final_k_selected_on_all_primary_data": 0.56,
+  "outer_fold_k_median": 1.01,
+  "outer_fold_k_iqr": [
+    0.56,
+    1.48
+  ],
+  "association_summary": [
+    {
+      "metric": "nonlinear",
+      "participants": 9,
+      "median_participant_rho": 0.6523752867525634,
+      "ci_low": 0.09855709403655,
+      "ci_high": 0.8041233771977604,
+      "mean_participant_rho": 0.5216664871457526
+    },
+    {
+      "metric": "linear",
+      "participants": 9,
+      "median_participant_rho": 0.422008346476664,
+      "ci_low": 0.19382473322794577,
+      "ci_high": 0.6882873782474663,
+      "mean_participant_rho": 0.4446172887719043
+    },
+    {
+      "metric": "mean_hrr",
+      "participants": 9,
+      "median_participant_rho": 0.41768487566643536,
+      "ci_low": 0.19382473322794577,
+      "ci_high": 0.6882873782474663,
+      "mean_participant_rho": 0.43924561242072824
+    },
+    {
+      "metric": "banister_trimp",
+      "participants": 9,
+      "median_participant_rho": 0.5034023839040117,
+      "ci_low": -0.2687920746451363,
+      "ci_high": 0.6399490908144193,
+      "mean_participant_rho": 0.32180120855800126
+    }
+  ],
+  "nested_cv_performance": [
+    {
+      "metric": "nonlinear",
+      "participant_balanced_mae": 1.3536643940931283,
+      "participant_balanced_mae_ci_low": 1.0229954707326032,
+      "participant_balanced_mae_ci_high": 1.7134984445101922,
+      "participant_balanced_rmse": 1.674903490837242,
+      "participant_balanced_rmse_ci_low": 1.3311100382918668,
+      "participant_balanced_rmse_ci_high": 2.0206668768041403,
+      "pooled_cv_r2": 0.03306219768621976,
+      "pooled_cv_r2_ci_low": -0.31196376301375817,
+      "pooled_cv_r2_ci_high": 0.19080676429522658
+    },
+    {
+      "metric": "linear",
+      "participant_balanced_mae": 1.3020464195357115,
+      "participant_balanced_mae_ci_low": 0.9308437608333595,
+      "participant_balanced_mae_ci_high": 1.7143612435921871,
+      "participant_balanced_rmse": 1.696825312499014,
+      "participant_balanced_rmse_ci_low": 1.2839025399369037,
+      "participant_balanced_rmse_ci_high": 2.086905767580357,
+      "pooled_cv_r2": -0.05749857501797995,
+      "pooled_cv_r2_ci_low": -0.494228103870389,
+      "pooled_cv_r2_ci_high": 0.1633504140312738
+    },
+    {
+      "metric": "mean_hrr",
+      "participant_balanced_mae": 1.3142947095374862,
+      "participant_balanced_mae_ci_low": 0.9620762492938807,
+      "participant_balanced_mae_ci_high": 1.7057216850009924,
+      "participant_balanced_rmse": 1.6952590540820123,
+      "participant_balanced_rmse_ci_low": 1.2937101098446873,
+      "participant_balanced_rmse_ci_high": 2.078537801908563,
+      "pooled_cv_r2": -0.04970295982105699,
+      "pooled_cv_r2_ci_low": -0.4653767883415991,
+      "pooled_cv_r2_ci_high": 0.16247229914370154
+    },
+    {
+      "metric": "banister_trimp",
+      "participant_balanced_mae": 1.3273228345990238,
+      "participant_balanced_mae_ci_low": 1.043775069833671,
+      "participant_balanced_mae_ci_high": 1.6278872680526542,
+      "participant_balanced_rmse": 1.668230953962577,
+      "participant_balanced_rmse_ci_low": 1.365597407000757,
+      "participant_balanced_rmse_ci_high": 1.9480756275775313,
+      "pooled_cv_r2": -0.011901326555794567,
+      "pooled_cv_r2_ci_low": -0.3646321780443633,
+      "pooled_cv_r2_ci_high": 0.14738104463668175
+    }
+  ],
+  "paired_comparisons": [
+    {
+      "comparison": "nonlinear_minus_linear",
+      "scale": "median paired difference in participant-level Spearman rho",
+      "estimate": 0.04358883808553726,
+      "ci_low": -0.01791947164300907,
+      "ci_high": 0.2699881912872517,
+      "participants": 9
+    },
+    {
+      "comparison": "nonlinear_minus_mean_hrr",
+      "scale": "median paired difference in participant-level Spearman rho",
+      "estimate": 0.07264806347589547,
+      "ci_low": -0.01791947164300907,
+      "ci_high": 0.27384864333322434,
+      "participants": 9
+    },
+    {
+      "comparison": "nonlinear_minus_banister_trimp",
+      "scale": "median paired difference in participant-level Spearman rho",
+      "estimate": 0.23145322852204825,
+      "ci_low": 0.012426195938144091,
+      "ci_high": 0.4791120193180106,
+      "participants": 9
+    },
+    {
+      "comparison": "nonlinear_minus_linear",
+      "scale": "participant-balanced MAE difference (RPE units; negative favors nonlinear)",
+      "estimate": 0.051617974557416645,
+      "ci_low": -0.10494842751590627,
+      "ci_high": 0.28018542060880175,
+      "participants": 15
+    },
+    {
+      "comparison": "nonlinear_minus_mean_hrr",
+      "scale": "participant-balanced MAE difference (RPE units; negative favors nonlinear)",
+      "estimate": 0.03936968455564228,
+      "ci_low": -0.10184765458109554,
+      "ci_high": 0.2401201128224809,
+      "participants": 15
+    },
+    {
+      "comparison": "nonlinear_minus_banister_trimp",
+      "scale": "participant-balanced MAE difference (RPE units; negative favors nonlinear)",
+      "estimate": 0.026341559494104563,
+      "ci_low": -0.2369244511436415,
+      "ci_high": 0.2882981463523876,
+      "participants": 15
+    }
+  ],
+  "sensitivity_analyses": [
+    {
+      "analysis": "primary",
+      "sessions": 244,
+      "participants": 9,
+      "selected_k": 0.56,
+      "nonlinear_median_participant_rho": 0.6523752867525634,
+      "linear_median_participant_rho": 0.422008346476664,
+      "median_paired_rho_difference": 0.04301796114046663,
+      "difference_ci_low": 0.010897209521384288,
+      "difference_ci_high": 0.1704859092734906
+    },
+    {
+      "analysis": "measured_hrmax_only",
+      "sessions": 163,
+      "participants": 7,
+      "selected_k": 0.56,
+      "nonlinear_median_participant_rho": 0.6523752867525634,
+      "linear_median_participant_rho": 0.2795894086082415,
+      "median_paired_rho_difference": 0.04301796114046663,
+      "difference_ci_low": 0.010897209521384288,
+      "difference_ci_high": 0.1704859092734906
+    },
+    {
+      "analysis": "exclude_sessions_with_gt5pct_hrr_above_one",
+      "sessions": 241,
+      "participants": 9,
+      "selected_k": 0.56,
+      "nonlinear_median_participant_rho": 0.6523752867525634,
+      "linear_median_participant_rho": 0.49907787010239335,
+      "median_paired_rho_difference": 0.04301796114046663,
+      "difference_ci_low": -0.016495721976846456,
+      "difference_ci_high": 0.1704859092734906
+    },
+    {
+      "analysis": "broad_matching_0_to_12h",
+      "sessions": 263,
+      "participants": 9,
+      "selected_k": 1.5,
+      "nonlinear_median_participant_rho": 0.5440240954561049,
+      "linear_median_participant_rho": 0.34247905738340956,
+      "median_paired_rho_difference": 0.08470386589736728,
+      "difference_ci_low": 0.012994868040485885,
+      "difference_ci_high": 0.3060790154471653
+    }
+  ],
+  "bootstrap_replicates": 5000,
+  "random_seed": 20260727
+}

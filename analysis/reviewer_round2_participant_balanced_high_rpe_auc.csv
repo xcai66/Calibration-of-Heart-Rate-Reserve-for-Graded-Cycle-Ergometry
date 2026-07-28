@@ -1,0 +1,2 @@
+eligible_participants,eligible_sessions,eligible_high_rpe_sessions,mean_participant_auc_tilted,mean_participant_auc_linear,mean_auc_difference,conditional_ci_low,conditional_ci_high
+8,221,50,0.8167545339725785,0.6731489057202983,0.14360562825228018,0.027980366440479385,0.2679982022231178

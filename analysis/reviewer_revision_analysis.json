@@ -1,0 +1,254 @@
+{
+  "pairwise_mae": [
+    {
+      "comparison": "tilted_hrr_minus_intercept_only",
+      "participants": 15,
+      "tilted_participant_balanced_mae": 1.2055438134681116,
+      "comparator_participant_balanced_mae": 1.4210132158314523,
+      "mae_difference": -0.2154694023633408,
+      "conditional_ci_low": -0.4121796446373398,
+      "conditional_ci_high": -0.021612922375518512,
+      "participants_improved": 11,
+      "participants_unchanged": 0,
+      "participants_worsened": 4
+    },
+    {
+      "comparison": "tilted_hrr_minus_linear_decile",
+      "participants": 15,
+      "tilted_participant_balanced_mae": 1.2055438134681116,
+      "comparator_participant_balanced_mae": 1.3020464195357115,
+      "mae_difference": -0.09650260606760001,
+      "conditional_ci_low": -0.1636978648097087,
+      "conditional_ci_high": -0.03270628108213595,
+      "participants_improved": 9,
+      "participants_unchanged": 0,
+      "participants_worsened": 6
+    },
+    {
+      "comparison": "tilted_hrr_minus_mean_hrr",
+      "participants": 15,
+      "tilted_participant_balanced_mae": 1.2055438134681116,
+      "comparator_participant_balanced_mae": 1.3142947095374862,
+      "mae_difference": -0.10875089606937437,
+      "conditional_ci_low": -0.17337353585850324,
+      "conditional_ci_high": -0.04264207882503416,
+      "participants_improved": 11,
+      "participants_unchanged": 0,
+      "participants_worsened": 4
+    },
+    {
+      "comparison": "tilted_hrr_minus_entropic_hrr",
+      "participants": 15,
+      "tilted_participant_balanced_mae": 1.2055438134681116,
+      "comparator_participant_balanced_mae": 1.2391899701334148,
+      "mae_difference": -0.0336461566653034,
+      "conditional_ci_low": -0.05871238081291125,
+      "conditional_ci_high": -0.010842630671137598,
+      "participants_improved": 12,
+      "participants_unchanged": 0,
+      "participants_worsened": 3
+    },
+    {
+      "comparison": "tilted_hrr_minus_power_hrr",
+      "participants": 15,
+      "tilted_participant_balanced_mae": 1.2055438134681116,
+      "comparator_participant_balanced_mae": 1.2372539065834218,
+      "mae_difference": -0.03171009311531001,
+      "conditional_ci_low": -0.05412135660452403,
+      "conditional_ci_high": -0.009996091892401337,
+      "participants_improved": 11,
+      "participants_unchanged": 0,
+      "participants_worsened": 4
+    },
+    {
+      "comparison": "tilted_hrr_minus_original_exp",
+      "participants": 15,
+      "tilted_participant_balanced_mae": 1.2055438134681116,
+      "comparator_participant_balanced_mae": 1.3536643940931283,
+      "mae_difference": -0.14812058062501662,
+      "conditional_ci_low": -0.3507437424559327,
+      "conditional_ci_high": 0.0003428335488954725,
+      "participants_improved": 9,
+      "participants_unchanged": 0,
+      "participants_worsened": 6
+    },
+    {
+      "comparison": "tilted_hrr_minus_banister_trimp",
+      "participants": 15,
+      "tilted_participant_balanced_mae": 1.2055438134681116,
+      "comparator_participant_balanced_mae": 1.3273228345990238,
+      "mae_difference": -0.12177902113091213,
+      "conditional_ci_low": -0.36641442298403926,
+      "conditional_ci_high": 0.11908652024154308,
+      "participants_improved": 10,
+      "participants_unchanged": 0,
+      "participants_worsened": 5
+    }
+  ],
+  "minimum_session_sensitivity": [
+    {
+      "minimum_sessions": 5,
+      "participants": 9,
+      "sessions": 244,
+      "tilted_participant_balanced_mae": 1.1752791231491577,
+      "linear_participant_balanced_mae": 1.31776199871205,
+      "mae_difference": -0.1424828755628923,
+      "conditional_ci_low": -0.21622987178859923,
+      "conditional_ci_high": -0.06692216402753016
+    }
+  ],
+  "intercept_performance": [
+    {
+      "family": "intercept_only",
+      "participants": 15,
+      "participant_balanced_mae": 1.4210132158314523,
+      "mae_ci_low": 1.1233007188582165,
+      "mae_ci_high": 1.7558251716189053,
+      "participant_balanced_rmse": 1.7738311863937215,
+      "rmse_ci_low": 1.4261422655126959,
+      "rmse_ci_high": 2.1029795420488053,
+      "pooled_cv_r2": -0.020970903338875413,
+      "r2_ci_low": -0.12121733765821013,
+      "r2_ci_high": -0.014661178978249234
+    }
+  ],
+  "high_rpe_auc": [
+    {
+      "family": "tilted_hrr",
+      "sessions": 255,
+      "high_rpe_sessions": 50,
+      "roc_auc": 0.729170731707317,
+      "conditional_ci_low": 0.5402412116315742,
+      "conditional_ci_high": 0.8651742010092515
+    },
+    {
+      "family": "linear_decile",
+      "sessions": 255,
+      "high_rpe_sessions": 50,
+      "roc_auc": 0.5769756097560975,
+      "conditional_ci_low": 0.44306813295493636,
+      "conditional_ci_high": 0.740153704054566
+    },
+    {
+      "family": "mean_hrr",
+      "sessions": 255,
+      "high_rpe_sessions": 50,
+      "roc_auc": 0.5799024390243902,
+      "conditional_ci_low": 0.44531744421906694,
+      "conditional_ci_high": 0.739788322210197
+    },
+    {
+      "family": "entropic_hrr",
+      "sessions": 255,
+      "high_rpe_sessions": 50,
+      "roc_auc": 0.688,
+      "conditional_ci_low": 0.49303234236259413,
+      "conditional_ci_high": 0.8470469995350146
+    },
+    {
+      "family": "power_hrr",
+      "sessions": 255,
+      "high_rpe_sessions": 50,
+      "roc_auc": 0.6905365853658536,
+      "conditional_ci_low": 0.49265508642481387,
+      "conditional_ci_high": 0.8460141071866139
+    }
+  ],
+  "high_rpe_comparison": [
+    {
+      "comparison": "tilted_hrr_minus_linear_decile",
+      "roc_auc_difference": 0.15219512195121954,
+      "conditional_ci_low": 0.05918506355855399,
+      "conditional_ci_high": 0.22557920881502888
+    }
+  ],
+  "tail_amplification": [
+    {
+      "quantity": "mean_decile_midpoint",
+      "sessions": 255,
+      "median": 0.6419999999999997,
+      "q1": 0.5724547940953401,
+      "q3": 0.7108779002108752,
+      "minimum": 0.24267857142857138,
+      "maximum": 0.9433710174717368
+    },
+    {
+      "quantity": "tHRR-I",
+      "sessions": 255,
+      "median": 0.7388442883320094,
+      "q1": 0.645421757853845,
+      "q3": 0.8067348715200297,
+      "minimum": 0.37108843045135953,
+      "maximum": 0.9468021660457122
+    },
+    {
+      "quantity": "delta_tilt",
+      "sessions": 255,
+      "median": 0.07704600237443915,
+      "q1": 0.04149114637649898,
+      "q3": 0.12413672540919929,
+      "minimum": 0.0034311485739754177,
+      "maximum": 0.3484211500496253
+    },
+    {
+      "quantity": "duration_times_delta_tilt",
+      "sessions": 255,
+      "median": 3.7399789080141446,
+      "q1": 1.7130166709940484,
+      "q3": 7.164000694331633,
+      "minimum": 0.11145514284463483,
+      "maximum": 40.72994779740231
+    },
+    {
+      "quantity": "adjacent_decile_weight_multiplier",
+      "sessions": 255,
+      "median": 1.858928041846342,
+      "q1": NaN,
+      "q3": NaN,
+      "minimum": NaN,
+      "maximum": NaN
+    }
+  ],
+  "attrition_audit": [
+    {
+      "quantity": "tracker_linked_pairs",
+      "value": 469.0
+    },
+    {
+      "quantity": "bidirectionally_unique_pairs",
+      "value": 447.0
+    },
+    {
+      "quantity": "unique_pairs_passing_hr_qc",
+      "value": 267.0
+    },
+    {
+      "quantity": "primary_sessions",
+      "value": 255.0
+    },
+    {
+      "quantity": "primary_mean_rpe",
+      "value": 5.992156862745098
+    },
+    {
+      "quantity": "excluded_mean_rpe",
+      "value": 5.668224299065421
+    },
+    {
+      "quantity": "primary_median_report_delay_min",
+      "value": 60.49765
+    },
+    {
+      "quantity": "primary_median_duration_difference_min",
+      "value": 3.783333333333331
+    },
+    {
+      "quantity": "primary_run_or_treadmill_sessions",
+      "value": 251.0
+    }
+  ],
+  "uncertainty_note": "Intervals are conditional participant-cluster bootstrap intervals for the realized held-out predictions. They do not repeat formula-family selection or the complete development pipeline.",
+  "high_rpe_note": "RPE >= 8 was an operational, post hoc threshold used only for exploratory discrimination analysis.",
+  "bootstrap_replicates": 5000,
+  "random_seed": 20260731
+}

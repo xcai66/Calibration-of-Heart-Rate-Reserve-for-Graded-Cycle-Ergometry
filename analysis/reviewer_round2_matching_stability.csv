@@ -1,0 +1,7 @@
+rule,selected_pairs,bidirectionally_unique_pairs,primary_pairs_retained,primary_pairs_retained_percent
+delay_15_180_min,449,443,255,100.0
+delay_15_90_min,401,398,225,88.23529411764706
+delay_30_120_min,413,408,232,90.98039215686275
+delay_15_180_and_duration_le_10_min,363,357,214,83.92156862745098
+delay_priority_cost,449,443,255,100.0
+duration_priority_cost,449,443,255,100.0

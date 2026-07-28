@@ -1,0 +1,2 @@
+comparison,roc_auc_difference,conditional_ci_low,conditional_ci_high
+tilted_hrr_minus_linear_decile,0.15219512195121954,0.05918506355855399,0.22557920881502888
