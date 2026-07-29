@@ -77,4 +77,6 @@ Original code is released under the MIT License. PMData and derived material bas
 
 ## Persistent archive
 
-After the public GitHub release is archived in Zenodo, the version-specific DOI will be added here and to the manuscript's Data and Code Availability statements.
+Release `v1.0.0` is preserved in Zenodo under the version-specific DOI [10.5281/zenodo.21689575](https://doi.org/10.5281/zenodo.21689575). The concept DOI [10.5281/zenodo.21689574](https://doi.org/10.5281/zenodo.21689574) represents all versions and resolves to the latest archived release.
+
+[![DOI](https://zenodo.org/badge/1315350784.svg)](https://doi.org/10.5281/zenodo.21689574)
