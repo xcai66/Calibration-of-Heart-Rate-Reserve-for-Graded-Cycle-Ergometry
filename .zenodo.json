@@ -1,6 +1,6 @@
 {
   "title": "tHRR-I-PMData: code and derived results for a tail-sensitive normalized heart-rate-reserve index",
-  "description": "Reproducible code, frozen derived results, and figures for exploratory method development and nested participant-level evaluation of tHRR-I in PMData. Raw PMData files are not redistributed.",
+  "description": "Reproducible code, frozen derived results, and figures for exploratory method development and nested participant-level evaluation of tHRR-I in PMData. Original code is licensed under the MIT License. PMData-derived tables and figures remain subject to the source CC BY-NC 4.0 terms described in DATA_LICENSE.md. Raw PMData files are not redistributed.",
   "upload_type": "software",
   "creators": [
     {
