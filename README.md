@@ -6,11 +6,11 @@ Repository: https://github.com/xcai66/tHRR-I-PMData
 
 ## Study status
 
-This repository supports an exploratory secondary analysis of the public PMData sports-logging dataset. The formula family was developed after inspecting PMData. The study is therefore an internal method-development evaluation, not an independent external validation. The ten-bin formula and the full-development estimate of λ = 6.2 must be locked and tested in an independent dataset before training prescription, automated alerts, clinical interpretation, or rehabilitation use.
+This repository supports an exploratory secondary analysis of the public PMData sports-logging dataset. The formula family was developed after inspecting PMData. The study is therefore an internal method-development evaluation, not an independent external validation. The principal model comparison was designated in the revised exploratory report and was not preregistered. The ten-bin formula and the full-development estimate of λ = 6.2 must be locked and tested in an independent dataset before training prescription, automated alerts, clinical interpretation, or rehabilitation use.
 
 ## Author
 
-Botao Cai (蔡伯韬)  
+BoTao Cai (蔡伯韬)
 College of Physical Education, Jimei University, Xiamen 361021, China
 
 The study was independently conducted by the author without external funding. The author declares no competing financial or non-financial interests.
@@ -62,11 +62,14 @@ npm run figures
 
 The primary analysis contained 255 sessions from 15 participants. Participant-balanced held-out MAE was 1.206 RPE units for tHRR-I and 1.302 for the linear decile score. The difference was −0.097 RPE units, with a reviewer-revision conditional 95% interval from −0.164 to −0.033. Pooled cross-validated R² was 0.138. The improvement was small and does not establish practical superiority.
 
+Raw-signal and matching robustness analyses retained the direction of the MAE difference after upper-tail winsorization, a 15-second gap cap, ±5-bpm maximal-heart-rate perturbations, ±3-bpm resting-heart-rate perturbations, and full model reruns under five alternative matching rules. Replacing all participant-specific maximal-heart-rate anchors with the Tanaka age-predicted value attenuated the difference to −0.032 RPE units (conditional 95% interval −0.084 to 0.026). The score is therefore best viewed as a candidate within-athlete session-review aid rather than a prescriptive threshold.
+
 ## Random seeds
 
 - `20260728`: original analysis
 - `20260729`: reviewer-revision bootstrap
 - `20260731`: repeated grouped splits and round-two sensitivity analyses
+- `20260730`: raw-signal, physiological-anchor, and full-rematching sensitivity analyses
 
 ## Licence and citation
 

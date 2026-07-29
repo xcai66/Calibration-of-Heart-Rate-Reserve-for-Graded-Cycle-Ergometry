@@ -4,10 +4,10 @@ title: "tHRR-I-PMData: code and derived results for a tail-sensitive normalized 
 type: software
 authors:
   - family-names: Cai
-    given-names: Botao
+    given-names: BoTao
     affiliation: "College of Physical Education, Jimei University"
 version: 1.0.0
-date-released: 2026-07-29
+date-released: 2026-07-30
 license: MIT
 repository-code: "https://github.com/xcai66/tHRR-I-PMData"
 keywords:
