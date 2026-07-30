@@ -11,9 +11,9 @@
 
 ## Publication actions
 
-- [ ] Push the frozen v1.1.0 commit to GitHub.
-- [ ] Create GitHub release `v1.1.0` from the frozen commit.
-- [ ] Publish the linked Zenodo archive and obtain its version-specific DOI.
-- [ ] Add the new version-specific DOI to the main branch, manuscript, cover letter, response letter, and Data and Code Availability statement.
-- [ ] Re-render all Word documents and verify the final PDF pages after DOI insertion.
-- [ ] Re-run repository and submission-package integrity checks before journal submission.
+- [x] Push the frozen v1.1.0 commit to GitHub.
+- [x] Create GitHub release `v1.1.0` from the frozen commit.
+- [x] Publish the linked Zenodo archive with version-specific DOI `10.5281/zenodo.21710544`.
+- [x] Add the new version-specific DOI to the main branch, manuscript, cover letter, response letter, and Data and Code Availability statement.
+- [x] Re-render all Word documents and verify the final PDF pages after DOI insertion (58 pages across five files).
+- [x] Re-run repository and submission-package integrity checks before journal submission.

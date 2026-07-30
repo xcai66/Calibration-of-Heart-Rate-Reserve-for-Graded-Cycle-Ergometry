@@ -94,6 +94,6 @@ Original code is released under the MIT License. Third-party data and derivative
 
 ## Persistent archive
 
-Release `v1.0.0` is preserved at [10.5281/zenodo.21689575](https://doi.org/10.5281/zenodo.21689575). The concept DOI [10.5281/zenodo.21689574](https://doi.org/10.5281/zenodo.21689574) represents all versions. Version `v1.1.0` archives the expanded external and reviewer-response analyses. Its new version-specific DOI will be added to the main branch and manuscript after Zenodo publication; the concept DOI remains the stable citation target.
+Release `v1.1.0` is archived at the version-specific DOI [10.5281/zenodo.21710544](https://doi.org/10.5281/zenodo.21710544). Release `v1.0.0` remains at [10.5281/zenodo.21689575](https://doi.org/10.5281/zenodo.21689575). The concept DOI [10.5281/zenodo.21689574](https://doi.org/10.5281/zenodo.21689574) represents all versions and remains the stable citation target.
 
 [![DOI](https://zenodo.org/badge/1315350784.svg)](https://doi.org/10.5281/zenodo.21689574)
