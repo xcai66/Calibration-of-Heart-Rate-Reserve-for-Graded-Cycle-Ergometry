@@ -5,6 +5,7 @@ __pycache__/
 venv/
 node_modules/
 source/pmdata/
+external_validation/data/raw/
 qa_*/
 *.tmp
 *.log

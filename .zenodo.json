@@ -1,6 +1,6 @@
 {
-  "title": "tHRR-I-PMData: code and derived results for a tail-sensitive normalized heart-rate-reserve index",
-  "description": "Reproducible code, frozen derived results, and figures for exploratory method development and nested participant-level evaluation of tHRR-I in PMData. Original code is licensed under the MIT License. PMData-derived tables and figures remain subject to the source CC BY-NC 4.0 terms described in DATA_LICENSE.md. Raw PMData files are not redistributed.",
+  "title": "tHRR-I-PMData: development and external construct evaluation of a bounded tail-sensitive heart-rate-reserve index",
+  "description": "Reproducible code, frozen derived results, protocols, and figures for exploratory PMData method development and locked external construct evaluation in WEEE and the University of Malaga treadmill dataset. The release includes selection-aware PMData analyses, a matching negative control, repeated-measures WEEE analyses, device agreement with uncertainty, synchronization audits, and Malaga endpoint and anchor sensitivity analyses. Original code is licensed under the MIT License. Third-party raw data are not redistributed.",
   "upload_type": "software",
   "creators": [
     {
@@ -16,7 +16,10 @@
     "running",
     "wearable sensors",
     "perceived exertion",
-    "nested cross-validation"
+    "nested cross-validation",
+    "external construct evaluation",
+    "repeated measures",
+    "oxygen uptake"
   ],
-  "version": "1.0.0"
+  "version": "1.1.0"
 }

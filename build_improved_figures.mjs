@@ -10,7 +10,7 @@ const sharp = process.env.CODEX_NODE_MODULES
 
 const ROOT = path.dirname(fileURLToPath(import.meta.url));
 const ANALYSIS = path.join(ROOT, "analysis");
-const BASE = path.join(ROOT, "figures");
+const BASE = path.join(ROOT, "figures_improved");
 const SVG_DIR = path.join(BASE, "svg");
 const PNG_DIR = path.join(BASE, "png");
 const TIFF_DIR = path.join(BASE, "tiff");
@@ -90,13 +90,19 @@ const steps = [
   [attritionValue("unique_pairs_passing_hr_qc"), "Unique matches passing heart-rate quality control"],
   [flow.primary_sessions, "Primary analysis sessions from 15 participants"],
 ];
+const losses = [
+  "314 records not linked to a tracker session",
+  "22 matches not bidirectionally unique",
+  "180 unique matches failed heart-rate quality control",
+  "12 sessions failed remaining primary criteria",
+];
 let body = "";
 steps.forEach(([count, label], index) => {
   const y = 165 + index * 164;
   body += `<rect x="250" y="${y}" width="1100" height="100" rx="18" fill="${index === 4 ? C.tealLight : C.pale}" stroke="${index === 4 ? C.teal : C.grid}" stroke-width="3"/>
   <text x="305" y="${y + 63}" font-size="38" font-weight="700" fill="${C.navy}">${count}</text>
   <text x="480" y="${y + 61}" class="label">${esc(label)}</text>`;
-  if (index < 4) body += `<line x1="800" y1="${y + 100}" x2="800" y2="${y + 140}" stroke="${C.gray}" stroke-width="3"/><polygon points="790,${y + 132} 810,${y + 132} 800,${y + 148}" fill="${C.gray}"/>`;
+  if (index < 4) body += `<line x1="800" y1="${y + 100}" x2="800" y2="${y + 140}" stroke="${C.gray}" stroke-width="3"/><polygon points="790,${y + 132} 810,${y + 132} 800,${y + 148}" fill="${C.gray}"/><text x="835" y="${y + 131}" class="small">${esc(losses[index])}</text>`;
 });
 body += `<rect x="280" y="1010" width="480" height="100" rx="16" fill="${C.white}" stroke="${C.navy}" stroke-width="3"/>
 <text x="520" y="1050" text-anchor="middle" font-size="30" font-weight="700">Nested prediction</text>
@@ -104,7 +110,7 @@ body += `<rect x="280" y="1010" width="480" height="100" rx="16" fill="${C.white
 <rect x="840" y="1010" width="480" height="100" rx="16" fill="${C.white}" stroke="${C.navy}" stroke-width="3"/>
 <text x="1080" y="1050" text-anchor="middle" font-size="30" font-weight="700">Within-person association</text>
 <text x="1080" y="1087" text-anchor="middle" class="small">244 sessions; 9 participants with ≥5 sessions</text>`;
-await save("Figure_1_sample_flow", frame(1600, 1180, "Construction of the public-data development sample", "No records from the authors’ original unreviewed human study were used", body));
+await save("Figure_1_sample_flow", frame(1600, 1180, "Construction of the public-data development sample", "Sequential linkage, uniqueness, heart-rate quality control, and analysis eligibility", body));
 
 // Figure 2: normalized exponential tilting mechanism.
 const plot = { left: 170, right: 1020, top: 220, bottom: 850 };
@@ -143,7 +149,7 @@ body += `<line x1="${plot.left}" y1="${plot.bottom}" x2="${plot.right}" y2="${pl
 <text x="1110" y="700" class="small">Bounded between 0 and 1</text>
 <text x="1110" y="735" class="small">λ = 0 gives mean HRR</text>
 <text x="1110" y="770" class="small">At λ = 6.2, each decile step multiplies weight by 1.86</text>`;
-await save("Figure_2_tilted_weighting", frame(1600, 1030, "Normalized exponential tilting preserves an interpretable HRR scale", "Higher λ increases the influence of brief high-intensity exposure without changing the 0–1 range", body));
+await save("Figure_2_tilted_weighting", frame(1600, 1030, "Normalized exponential tilting preserves an interpretable HRR scale", "Higher λ increases the influence of upper HRR bins while preserving the 0–1 output range", body));
 
 // Figure 3: paired associations.
 const assoc = parseCsv(await fs.readFile(path.join(ANALYSIS, "improved_formula_intensity_associations.csv"), "utf8"));
@@ -190,7 +196,7 @@ order.forEach((family, index) => {
 });
 body += `<line x1="535" y1="850" x2="1450" y2="850" stroke="${C.ink}" stroke-width="3"/><text class="label" x="990" y="955" text-anchor="middle">Participant-balanced MAE (RPE units; lower is better)</text>
 <rect x="1010" y="112" width="470" height="80" rx="14" fill="${C.pale}" stroke="${C.grid}"/><text x="1035" y="146" class="small">tHRR-I − linear MAE: −0.097 RPE units</text><text x="1035" y="177" class="small">95% conditional CI −0.164 to −0.033</text>`;
-await save("Figure_4_nested_cv_performance", frame(1600, 1030, "Normalized tilting modestly improved held-out-participant prediction", "Bars are conditional participant-cluster bootstrap 95% confidence intervals for realized held-out predictions", body));
+await save("Figure_4_nested_cv_performance", frame(1600, 1030, "Held-out-participant prediction performance", "Conditional participant-cluster intervals; formula-family selection was not repeated", body));
 
 // Figure 5: real session pairs with nearly equal mean HRR but different distributions.
 const sessions = parseCsv(await fs.readFile(path.join(ANALYSIS, "pmdata_primary_analysis_sessions.csv"), "utf8"));

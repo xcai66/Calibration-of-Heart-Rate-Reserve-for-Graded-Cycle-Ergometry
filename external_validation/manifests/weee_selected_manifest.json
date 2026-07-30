@@ -1,0 +1,842 @@
+{
+  "dataset": "WEEE, A Multi-Device and Multi-Modal Dataset for Wearable Human Energy Expenditure Estimation",
+  "doi": "10.5281/zenodo.6420886",
+  "version": "v1",
+  "license": "CC BY 4.0",
+  "source_url": "https://zenodo.org/records/6420886/files/dataset.zip?download=1",
+  "archive_bytes": 651557047,
+  "access_date": "2026-07-30",
+  "selection_rule": "study metadata, demographics, Apple Watch export, participant E4 HR, VO2 DataAverage and chest-HR files, and Zephyr Summary files",
+  "selected_files": [
+    {
+      "name": "dataset/Study_Information.csv",
+      "compression_method": 8,
+      "crc32": 2775370335,
+      "compressed_bytes": 1158,
+      "uncompressed_bytes": 3460,
+      "local_header_offset": 2552,
+      "relative_path": "Study_Information.csv",
+      "sha256": "dce08d2722d82a98bc3df361154a12473014356fbbc7c2dd71eedca024369149"
+    },
+    {
+      "name": "dataset/Demographics.csv",
+      "compression_method": 8,
+      "crc32": 1013107931,
+      "compressed_bytes": 332,
+      "uncompressed_bytes": 654,
+      "local_header_offset": 5435,
+      "relative_path": "Demographics.csv",
+      "sha256": "430785e97377929d71dd9f9814a87f226f218df0e9961822b9ae115913f8d52a"
+    },
+    {
+      "name": "dataset/Apple watch/HealthAutoExport.csv",
+      "compression_method": 8,
+      "crc32": 2317216824,
+      "compressed_bytes": 621543,
+      "uncompressed_bytes": 7520058,
+      "local_header_offset": 42608,
+      "relative_path": "Apple watch/HealthAutoExport.csv",
+      "sha256": "89ffc848c4385ab3a410aa951b18d9deb8adae6f5336407b46abbe08ec3f20d3"
+    },
+    {
+      "name": "dataset/P17/E4/HR.csv",
+      "compression_method": 8,
+      "crc32": 631464677,
+      "compressed_bytes": 8636,
+      "uncompressed_bytes": 27465,
+      "local_header_offset": 17251855,
+      "relative_path": "P17/E4/HR.csv",
+      "sha256": "c5857c759037bb5f5a1039221d48385d5c0f2d0dde29375d0ad4601629aee99f"
+    },
+    {
+      "name": "dataset/P17/VO2/DataAverage.csv",
+      "compression_method": 8,
+      "crc32": 4194711342,
+      "compressed_bytes": 35977,
+      "uncompressed_bytes": 186240,
+      "local_header_offset": 18227631,
+      "relative_path": "P17/VO2/DataAverage.csv",
+      "sha256": "02106f76b3fda9819085ef1ee3de8d93555ce52c0752d9ff392001df169c17b8"
+    },
+    {
+      "name": "dataset/P17/VO2/HeartRateMonitor-Data.csv",
+      "compression_method": 8,
+      "crc32": 1975885393,
+      "compressed_bytes": 16808,
+      "uncompressed_bytes": 84611,
+      "local_header_offset": 18263937,
+      "relative_path": "P17/VO2/HeartRateMonitor-Data.csv",
+      "sha256": "3a59bde764c4e77f4fd97ac68f6e35f1b76449d75a4b7e82c11c98740ca5fea2"
+    },
+    {
+      "name": "dataset/P17/ZEPHYR/2021_12_02-16_28_52_Summary.csv",
+      "compression_method": 8,
+      "crc32": 3574167621,
+      "compressed_bytes": 125320,
+      "uncompressed_bytes": 897137,
+      "local_header_offset": 39918992,
+      "relative_path": "P17/ZEPHYR/2021_12_02-16_28_52_Summary.csv",
+      "sha256": "8543c333eb64c7c36a6d2baaefa9f9be2698883ccbdac3fd28a424ec9d1bf80d"
+    },
+    {
+      "name": "dataset/P10/E4/HR.csv",
+      "compression_method": 8,
+      "crc32": 4069293887,
+      "compressed_bytes": 7084,
+      "uncompressed_bytes": 21993,
+      "local_header_offset": 59415152,
+      "relative_path": "P10/E4/HR.csv",
+      "sha256": "ab403cc1da97f28f179798f44a9835aaa99e63730d5dc50ad3908255221cfd84"
+    },
+    {
+      "name": "dataset/P10/VO2/DataAverage.csv",
+      "compression_method": 8,
+      "crc32": 1437493543,
+      "compressed_bytes": 29511,
+      "uncompressed_bytes": 140754,
+      "local_header_offset": 60125763,
+      "relative_path": "P10/VO2/DataAverage.csv",
+      "sha256": "2cc81ddcacc58872fe58bd013897a884d2f42d7ad68cd279bd780241c207f3bc"
+    },
+    {
+      "name": "dataset/P10/VO2/HeartRateMonitor-Data.csv",
+      "compression_method": 8,
+      "crc32": 212789807,
+      "compressed_bytes": 15464,
+      "uncompressed_bytes": 65489,
+      "local_header_offset": 60155638,
+      "relative_path": "P10/VO2/HeartRateMonitor-Data.csv",
+      "sha256": "21b808288d91b0fe5c77cf74c5fc8f984e7c846ad519f9a8e6d3a7ea22ce7b4f"
+    },
+    {
+      "name": "dataset/P10/ZEPHYR/2021_11_30-11_13_34_Summary.csv",
+      "compression_method": 8,
+      "crc32": 3418642425,
+      "compressed_bytes": 94181,
+      "uncompressed_bytes": 666090,
+      "local_header_offset": 76900971,
+      "relative_path": "P10/ZEPHYR/2021_11_30-11_13_34_Summary.csv",
+      "sha256": "eb4a68a37537d8ebf6f8e3d4f3a45016cbe369d821a57c99e4b47af251b0c620"
+    },
+    {
+      "name": "dataset/P11/E4/HR.csv",
+      "compression_method": 8,
+      "crc32": 3443556542,
+      "compressed_bytes": 9615,
+      "uncompressed_bytes": 30526,
+      "local_header_offset": 106552744,
+      "relative_path": "P11/E4/HR.csv",
+      "sha256": "15a856fa6170fc52e1fbd62c18f52122db0b37d66d97bc0f0bf0fb663c93a919"
+    },
+    {
+      "name": "dataset/P11/VO2/DataAverage.csv",
+      "compression_method": 8,
+      "crc32": 414772499,
+      "compressed_bytes": 40322,
+      "uncompressed_bytes": 186575,
+      "local_header_offset": 107673101,
+      "relative_path": "P11/VO2/DataAverage.csv",
+      "sha256": "aaa99ee5e088e1b43d4fb65259cbfe83a11dbd7ac7a1f2297e197bf95d594568"
+    },
+    {
+      "name": "dataset/P11/VO2/HeartRateMonitor-Data.csv",
+      "compression_method": 8,
+      "crc32": 243842131,
+      "compressed_bytes": 22531,
+      "uncompressed_bytes": 89577,
+      "local_header_offset": 107713752,
+      "relative_path": "P11/VO2/HeartRateMonitor-Data.csv",
+      "sha256": "65ccb685a28858e8bc991929dc2be63cd0d956afc7813a8488e01ffdb5896421"
+    },
+    {
+      "name": "dataset/P11/ZEPHYR/2021_11_30-14_36_55_Summary.csv",
+      "compression_method": 8,
+      "crc32": 401614390,
+      "compressed_bytes": 155125,
+      "uncompressed_bytes": 1164772,
+      "local_header_offset": 132576108,
+      "relative_path": "P11/ZEPHYR/2021_11_30-14_36_55_Summary.csv",
+      "sha256": "f40a936ed0c8eb3eb4ce7ff5147658dc95c120b818cec55425099b08daf22242"
+    },
+    {
+      "name": "dataset/P16/E4/HR.csv",
+      "compression_method": 8,
+      "crc32": 858031635,
+      "compressed_bytes": 9004,
+      "uncompressed_bytes": 29432,
+      "local_header_offset": 164552070,
+      "relative_path": "P16/E4/HR.csv",
+      "sha256": "2002b21a7eb7053e6d5d4f7b22c01f3cfbf950c36ff8d95cb85c5fb7a1f26295"
+    },
+    {
+      "name": "dataset/P16/VO2/DataAverage.csv",
+      "compression_method": 8,
+      "crc32": 2095413244,
+      "compressed_bytes": 28058,
+      "uncompressed_bytes": 151710,
+      "local_header_offset": 165569949,
+      "relative_path": "P16/VO2/DataAverage.csv",
+      "sha256": "9c2fb5f2aee46988d5265f84ce6c32eb07005a4bc5e2f2d4a37801e7baae92b2"
+    },
+    {
+      "name": "dataset/P16/ZEPHYR/2021_12_01-18_07_37_Summary.csv",
+      "compression_method": 8,
+      "crc32": 568375220,
+      "compressed_bytes": 132536,
+      "uncompressed_bytes": 952814,
+      "local_header_offset": 188999630,
+      "relative_path": "P16/ZEPHYR/2021_12_01-18_07_37_Summary.csv",
+      "sha256": "62d3ea257053789fa422104b7be89963b845e12608a5bedeab4f4c2931368772"
+    },
+    {
+      "name": "dataset/P05/E4/HR.csv",
+      "compression_method": 8,
+      "crc32": 3090802803,
+      "compressed_bytes": 6764,
+      "uncompressed_bytes": 22235,
+      "local_header_offset": 212598977,
+      "relative_path": "P05/E4/HR.csv",
+      "sha256": "bc5538c553cb55e8cfcaa76ab53f86b4030d6f571f143ad15e3dcc82e4137588"
+    },
+    {
+      "name": "dataset/P05/VO2/DataAverage.csv",
+      "compression_method": 8,
+      "crc32": 3588764928,
+      "compressed_bytes": 35167,
+      "uncompressed_bytes": 177156,
+      "local_header_offset": 213328932,
+      "relative_path": "P05/VO2/DataAverage.csv",
+      "sha256": "2c4aeb25a711ad768e2239bb2f92f02c9eaf26cf4909a3774de906106b107e5d"
+    },
+    {
+      "name": "dataset/P05/VO2/HeartRateMonitor-Data.csv",
+      "compression_method": 8,
+      "crc32": 4223381721,
+      "compressed_bytes": 18069,
+      "uncompressed_bytes": 80669,
+      "local_header_offset": 213364463,
+      "relative_path": "P05/VO2/HeartRateMonitor-Data.csv",
+      "sha256": "5c1e4adc05992e2627f5836ab0995c6198f78a43dbd9e473fb37319584231de2"
+    },
+    {
+      "name": "dataset/P05/ZEPHYR/2021_11_29-09_15_19_Summary.csv",
+      "compression_method": 8,
+      "crc32": 2268554780,
+      "compressed_bytes": 98925,
+      "uncompressed_bytes": 770851,
+      "local_header_offset": 220923294,
+      "relative_path": "P05/ZEPHYR/2021_11_29-09_15_19_Summary.csv",
+      "sha256": "bbb4a8b36a2988d2bd39a6e4d61b8494c97d1f9fb30bc8d51ecdd224dda0cc55"
+    },
+    {
+      "name": "dataset/P02/E4/HR.csv",
+      "compression_method": 8,
+      "crc32": 692095050,
+      "compressed_bytes": 8050,
+      "uncompressed_bytes": 24738,
+      "local_header_offset": 227776448,
+      "relative_path": "P02/E4/HR.csv",
+      "sha256": "0f997948c07b8bdffb9a31541d5b4ff0ef7899641945ada7222f42169ddf04a2"
+    },
+    {
+      "name": "dataset/P02/VO2/DataAverage.csv",
+      "compression_method": 8,
+      "crc32": 348956199,
+      "compressed_bytes": 39722,
+      "uncompressed_bytes": 213665,
+      "local_header_offset": 228605160,
+      "relative_path": "P02/VO2/DataAverage.csv",
+      "sha256": "4f596821165839b4858e75ad38885478e10480968ed0cd5270a625d38428ca99"
+    },
+    {
+      "name": "dataset/P02/ZEPHYR/2021_11_25-16_51_54_Summary.csv",
+      "compression_method": 8,
+      "crc32": 2838154297,
+      "compressed_bytes": 123530,
+      "uncompressed_bytes": 874783,
+      "local_header_offset": 238717391,
+      "relative_path": "P02/ZEPHYR/2021_11_25-16_51_54_Summary.csv",
+      "sha256": "e4bfb210ed77441f1d14cef3acf8eef1c04e9ff437b8e0357a9551a679ec8056"
+    },
+    {
+      "name": "dataset/P03/E4/HR.csv",
+      "compression_method": 8,
+      "crc32": 283489628,
+      "compressed_bytes": 6992,
+      "uncompressed_bytes": 22545,
+      "local_header_offset": 270690169,
+      "relative_path": "P03/E4/HR.csv",
+      "sha256": "7f907ef4205dca8080d3a0fa797c9950deda804734183a9007cad340d17a664b"
+    },
+    {
+      "name": "dataset/P03/VO2/DataAverage.csv",
+      "compression_method": 8,
+      "crc32": 3638195739,
+      "compressed_bytes": 36038,
+      "uncompressed_bytes": 192236,
+      "local_header_offset": 271486714,
+      "relative_path": "P03/VO2/DataAverage.csv",
+      "sha256": "860edb0e6b3997d3243dc3a4400a070d1173812404186659ec32471a6482f2a1"
+    },
+    {
+      "name": "dataset/P03/ZEPHYR/2021_11_26-16_07_33_Summary.csv",
+      "compression_method": 8,
+      "crc32": 1561410660,
+      "compressed_bytes": 104190,
+      "uncompressed_bytes": 751920,
+      "local_header_offset": 284245953,
+      "relative_path": "P03/ZEPHYR/2021_11_26-16_07_33_Summary.csv",
+      "sha256": "6b050fb0d1c7f301656c990aa512d9b79aae4bff4f304911c47799f8a296651f"
+    },
+    {
+      "name": "dataset/P04/E4/HR.csv",
+      "compression_method": 8,
+      "crc32": 3896238592,
+      "compressed_bytes": 7856,
+      "uncompressed_bytes": 24937,
+      "local_header_offset": 288769031,
+      "relative_path": "P04/E4/HR.csv",
+      "sha256": "15f95d000f09f6f18ffd12a2832e8811d3bd216b02cd7e67bd4e55183277ca05"
+    },
+    {
+      "name": "dataset/P04/VO2/DataAverage.csv",
+      "compression_method": 8,
+      "crc32": 948335691,
+      "compressed_bytes": 39585,
+      "uncompressed_bytes": 186105,
+      "local_header_offset": 289661066,
+      "relative_path": "P04/VO2/DataAverage.csv",
+      "sha256": "eaf534fb4b83161e46773e0c2005b80174149a2cc105be6daac8ff5288a43fdd"
+    },
+    {
+      "name": "dataset/P04/VO2/HeartRateMonitor-Data.csv",
+      "compression_method": 8,
+      "crc32": 2741249888,
+      "compressed_bytes": 19598,
+      "uncompressed_bytes": 81324,
+      "local_header_offset": 289701015,
+      "relative_path": "P04/VO2/HeartRateMonitor-Data.csv",
+      "sha256": "5cfdf5376aff60829b72ee7700309864a6d3a3940e8f3058f4813824af5a006e"
+    },
+    {
+      "name": "dataset/P04/ZEPHYR/2021_11_26-18_00_34_Summary.csv",
+      "compression_method": 8,
+      "crc32": 729027714,
+      "compressed_bytes": 86337,
+      "uncompressed_bytes": 620404,
+      "local_header_offset": 302625586,
+      "relative_path": "P04/ZEPHYR/2021_11_26-18_00_34_Summary.csv",
+      "sha256": "bc0efd23468c547b30b2fea45d9d3235c009b2ba42e072adfb0cde68e136de98"
+    },
+    {
+      "name": "dataset/P13/E4/HR.csv",
+      "compression_method": 8,
+      "crc32": 4174737908,
+      "compressed_bytes": 4959,
+      "uncompressed_bytes": 15946,
+      "local_header_offset": 319724491,
+      "relative_path": "P13/E4/HR.csv",
+      "sha256": "cec0dc471f26d8cd9a4dc99cc2549ffba485f43aad02dea1fada61ae14992d84"
+    },
+    {
+      "name": "dataset/P13/VO2/DataAverage.csv",
+      "compression_method": 8,
+      "crc32": 1543123934,
+      "compressed_bytes": 39857,
+      "uncompressed_bytes": 186746,
+      "local_header_offset": 320319797,
+      "relative_path": "P13/VO2/DataAverage.csv",
+      "sha256": "0b75e5015528b923b1dff0183574764c242262f898fa70a8d0059b71789b019a"
+    },
+    {
+      "name": "dataset/P13/VO2/HeartRateMonitor-Data.csv",
+      "compression_method": 8,
+      "crc32": 3082200925,
+      "compressed_bytes": 23317,
+      "uncompressed_bytes": 91385,
+      "local_header_offset": 320359983,
+      "relative_path": "P13/VO2/HeartRateMonitor-Data.csv",
+      "sha256": "beec17f8e6ddbc33cee21c30805dd302efa7423f607b7966d778674d28fa1f93"
+    },
+    {
+      "name": "dataset/P13/ZEPHYR/2021_11_30-18_16_40_Summary.csv",
+      "compression_method": 8,
+      "crc32": 2033327977,
+      "compressed_bytes": 86543,
+      "uncompressed_bytes": 598623,
+      "local_header_offset": 334334988,
+      "relative_path": "P13/ZEPHYR/2021_11_30-18_16_40_Summary.csv",
+      "sha256": "75e2ce95fce7d3b9b8c4f607330b68af14665d078a898f345accb2e40e53b3fb"
+    },
+    {
+      "name": "dataset/P14/E4/HR.csv",
+      "compression_method": 8,
+      "crc32": 4158501067,
+      "compressed_bytes": 5198,
+      "uncompressed_bytes": 17566,
+      "local_header_offset": 353445747,
+      "relative_path": "P14/E4/HR.csv",
+      "sha256": "9bb7b17e98e7245c9a31c43b2b2e9ef01e1bb5180618f0be6a3e733fcaf97912"
+    },
+    {
+      "name": "dataset/P14/VO2/DataAverage.csv",
+      "compression_method": 8,
+      "crc32": 682710107,
+      "compressed_bytes": 21886,
+      "uncompressed_bytes": 111688,
+      "local_header_offset": 354105181,
+      "relative_path": "P14/VO2/DataAverage.csv",
+      "sha256": "c856afaaec7fbf047bb690f82717ab040b91c956c043a445252939bc2b6c6d40"
+    },
+    {
+      "name": "dataset/P14/VO2/HeartRateMonitor-Data.csv",
+      "compression_method": 8,
+      "crc32": 1832488332,
+      "compressed_bytes": 11225,
+      "uncompressed_bytes": 40855,
+      "local_header_offset": 354127431,
+      "relative_path": "P14/VO2/HeartRateMonitor-Data.csv",
+      "sha256": "925dd0e8c097c2131581f71e67aa583ed5efac842b2c1a0f17af7d184a71baaf"
+    },
+    {
+      "name": "dataset/P14/ZEPHYR/2021_12_01-15_03_55_Summary.csv",
+      "compression_method": 8,
+      "crc32": 1157134641,
+      "compressed_bytes": 94727,
+      "uncompressed_bytes": 659816,
+      "local_header_offset": 365228657,
+      "relative_path": "P14/ZEPHYR/2021_12_01-15_03_55_Summary.csv",
+      "sha256": "a585a19ca18f86bf11d33674ae19211644926284f5d8ba27ac8d4b5f3763d440"
+    },
+    {
+      "name": "dataset/P15/E4/HR.csv",
+      "compression_method": 8,
+      "crc32": 268473141,
+      "compressed_bytes": 6686,
+      "uncompressed_bytes": 21529,
+      "local_header_offset": 390297021,
+      "relative_path": "P15/E4/HR.csv",
+      "sha256": "afa16596209b8b0b69ab1194f565b72a88a8d59367625468cf5b1a1009fe6733"
+    },
+    {
+      "name": "dataset/P15/VO2/DataAverage.csv",
+      "compression_method": 8,
+      "crc32": 1611457966,
+      "compressed_bytes": 35914,
+      "uncompressed_bytes": 187664,
+      "local_header_offset": 391080574,
+      "relative_path": "P15/VO2/DataAverage.csv",
+      "sha256": "6c2400f68269cd17bd5d0eeef875e1bb6b5a68b6b74e5b249a852aae85383aa9"
+    },
+    {
+      "name": "dataset/P15/VO2/HeartRateMonitor-Data.csv",
+      "compression_method": 8,
+      "crc32": 3343929472,
+      "compressed_bytes": 22087,
+      "uncompressed_bytes": 100232,
+      "local_header_offset": 391116817,
+      "relative_path": "P15/VO2/HeartRateMonitor-Data.csv",
+      "sha256": "2bfa05107189d159f0fd6578f0e55679f7cf90372abce4ec51cc60e946b19817"
+    },
+    {
+      "name": "dataset/P15/ZEPHYR/2021_12_01-10_46_41_Summary.csv",
+      "compression_method": 8,
+      "crc32": 3104724987,
+      "compressed_bytes": 106793,
+      "uncompressed_bytes": 733723,
+      "local_header_offset": 403333175,
+      "relative_path": "P15/ZEPHYR/2021_12_01-10_46_41_Summary.csv",
+      "sha256": "c364d8a158963cd7a071ab1eb2a66b158db9f81013c376d7228f9da47407aa94"
+    },
+    {
+      "name": "dataset/P12/E4/HR.csv",
+      "compression_method": 8,
+      "crc32": 2034762777,
+      "compressed_bytes": 9041,
+      "uncompressed_bytes": 27930,
+      "local_header_offset": 434737364,
+      "relative_path": "P12/E4/HR.csv",
+      "sha256": "7d313ea9d7c954421b099191302228b4498ccff8d430ba5234064d15bec075ae"
+    },
+    {
+      "name": "dataset/P12/VO2/DataAverage.csv",
+      "compression_method": 8,
+      "crc32": 716188268,
+      "compressed_bytes": 36093,
+      "uncompressed_bytes": 201136,
+      "local_header_offset": 435768399,
+      "relative_path": "P12/VO2/DataAverage.csv",
+      "sha256": "5481a72144bdcf04e42a0bf2478a3516bebaf4adcf47b3d131f4a00c278464fb"
+    },
+    {
+      "name": "dataset/P12/ZEPHYR/2021_12_03-10_24_41_Summary.csv",
+      "compression_method": 8,
+      "crc32": 186005020,
+      "compressed_bytes": 136407,
+      "uncompressed_bytes": 953939,
+      "local_header_offset": 466953073,
+      "relative_path": "P12/ZEPHYR/2021_12_03-10_24_41_Summary.csv",
+      "sha256": "98f3034275cfeb754bbc7a31ba7d693f51a4d6f2a54d1268c1ae68209f35c9c0"
+    },
+    {
+      "name": "dataset/P01/E4/HR.csv",
+      "compression_method": 8,
+      "crc32": 1964486361,
+      "compressed_bytes": 4711,
+      "uncompressed_bytes": 14942,
+      "local_header_offset": 482025815,
+      "relative_path": "P01/E4/HR.csv",
+      "sha256": "a0763b2c4353923e216e8ffa7176359819e828d9ff98357b156f90d14c813c4a"
+    },
+    {
+      "name": "dataset/P01/VO2/DataAverage.csv",
+      "compression_method": 8,
+      "crc32": 2066772996,
+      "compressed_bytes": 37189,
+      "uncompressed_bytes": 185618,
+      "local_header_offset": 482568300,
+      "relative_path": "P01/VO2/DataAverage.csv",
+      "sha256": "f4204c05813b84b77cdcba6ea31104f741879dd8ce6db7c73ddaabb9180a5141"
+    },
+    {
+      "name": "dataset/P01/VO2/HeartRateMonitor-Data.csv",
+      "compression_method": 8,
+      "crc32": 2451461213,
+      "compressed_bytes": 20804,
+      "uncompressed_bytes": 93733,
+      "local_header_offset": 482605853,
+      "relative_path": "P01/VO2/HeartRateMonitor-Data.csv",
+      "sha256": "24cddbe9d036fa20faae48d31f40e8a521ab0f4465b79671ccdae6d8a214d191"
+    },
+    {
+      "name": "dataset/P01/ZEPHYR/2021_12_03-16_44_37_Summary.csv",
+      "compression_method": 8,
+      "crc32": 1613611840,
+      "compressed_bytes": 86028,
+      "uncompressed_bytes": 600892,
+      "local_header_offset": 498321170,
+      "relative_path": "P01/ZEPHYR/2021_12_03-16_44_37_Summary.csv",
+      "sha256": "01f49a8ae995a0ec9c9c0580ab2f2fb21c6dc271e2a0e4e033b02089e9260391"
+    },
+    {
+      "name": "dataset/P06/E4/HR.csv",
+      "compression_method": 8,
+      "crc32": 2941500216,
+      "compressed_bytes": 5475,
+      "uncompressed_bytes": 18328,
+      "local_header_offset": 512370569,
+      "relative_path": "P06/E4/HR.csv",
+      "sha256": "3f39c0042f9e0be43ff3bcfed5ed602b101f8caf374b1f076b5160a31f6aca84"
+    },
+    {
+      "name": "dataset/P06/VO2/DataAverage.csv",
+      "compression_method": 8,
+      "crc32": 1339529383,
+      "compressed_bytes": 38491,
+      "uncompressed_bytes": 193559,
+      "local_header_offset": 513050106,
+      "relative_path": "P06/VO2/DataAverage.csv",
+      "sha256": "88c4d1cafb6306a015a16bfd07faf58c52d06bdb8b850e150b06b0e33bed3019"
+    },
+    {
+      "name": "dataset/P06/VO2/HeartRateMonitor-Data.csv",
+      "compression_method": 8,
+      "crc32": 2688395599,
+      "compressed_bytes": 20249,
+      "uncompressed_bytes": 79260,
+      "local_header_offset": 513088961,
+      "relative_path": "P06/VO2/HeartRateMonitor-Data.csv",
+      "sha256": "6bfa2f08a5a3c5a581aee6a286d18a706318494eab3a5b9a0e05edbfa4d7033e"
+    },
+    {
+      "name": "dataset/P06/ZEPHYR/2021_11_29-10_23_54_Summary.csv",
+      "compression_method": 8,
+      "crc32": 3353727163,
+      "compressed_bytes": 94489,
+      "uncompressed_bytes": 688683,
+      "local_header_offset": 524891802,
+      "relative_path": "P06/ZEPHYR/2021_11_29-10_23_54_Summary.csv",
+      "sha256": "2a9e96ec01d0bc0c39f153cac523dd169cfa3ebecf6648e089ffb85f56497f6f"
+    },
+    {
+      "name": "dataset/P08/E4/HR.csv",
+      "compression_method": 8,
+      "crc32": 527143934,
+      "compressed_bytes": 6176,
+      "uncompressed_bytes": 19648,
+      "local_header_offset": 544528516,
+      "relative_path": "P08/E4/HR.csv",
+      "sha256": "4a539a314fad8276fc3377994714e35cf36b589098ae6eb3e76f071afcf2683b"
+    },
+    {
+      "name": "dataset/P08/VO2/DataAverage.csv",
+      "compression_method": 8,
+      "crc32": 2177259298,
+      "compressed_bytes": 32399,
+      "uncompressed_bytes": 175669,
+      "local_header_offset": 545256972,
+      "relative_path": "P08/VO2/DataAverage.csv",
+      "sha256": "04a2ff1b65897fdb6b98e41398a8c4329365df95f4c28bac8108395b3cf533d7"
+    },
+    {
+      "name": "dataset/P08/VO2/HeartRateMonitor-Data.csv",
+      "compression_method": 8,
+      "crc32": 179577629,
+      "compressed_bytes": 17130,
+      "uncompressed_bytes": 77150,
+      "local_header_offset": 545289735,
+      "relative_path": "P08/VO2/HeartRateMonitor-Data.csv",
+      "sha256": "d61441dc5015a563320ce903df800a33bf1493a4a0d229d00a20df436873bb0f"
+    },
+    {
+      "name": "dataset/P08/ZEPHYR/2021_11_29-17_46_23_Summary.csv",
+      "compression_method": 8,
+      "crc32": 423776031,
+      "compressed_bytes": 78733,
+      "uncompressed_bytes": 571673,
+      "local_header_offset": 556089252,
+      "relative_path": "P08/ZEPHYR/2021_11_29-17_46_23_Summary.csv",
+      "sha256": "b2dc7c96a5fa44f36450c2a7e0972ad85ff745e66d08811e64dde6e5aa15a118"
+    },
+    {
+      "name": "dataset/P09/E4/HR.csv",
+      "compression_method": 8,
+      "crc32": 1709124463,
+      "compressed_bytes": 4530,
+      "uncompressed_bytes": 15678,
+      "local_header_offset": 594543590,
+      "relative_path": "P09/E4/HR.csv",
+      "sha256": "9636d01f9d0e79b0779439218ec78492c498e1f19e87db463031718e5baadc95"
+    },
+    {
+      "name": "dataset/P09/VO2/DataAverage.csv",
+      "compression_method": 8,
+      "crc32": 211475729,
+      "compressed_bytes": 33329,
+      "uncompressed_bytes": 181148,
+      "local_header_offset": 595119548,
+      "relative_path": "P09/VO2/DataAverage.csv",
+      "sha256": "8d74f59a23dda52b6449b4918a7c8c485e7c5900f1ce613b2019505246e06c0d"
+    },
+    {
+      "name": "dataset/P09/VO2/HeartRateMonitor-Data.csv",
+      "compression_method": 8,
+      "crc32": 1564518854,
+      "compressed_bytes": 21311,
+      "uncompressed_bytes": 91420,
+      "local_header_offset": 595153241,
+      "relative_path": "P09/VO2/HeartRateMonitor-Data.csv",
+      "sha256": "f81b9a9df4ba237816e33a477df8080e1f0455fe483f11a8cd4a89a8bbc4ab99"
+    },
+    {
+      "name": "dataset/P09/ZEPHYR/2021_11_30-09_06_33_Summary.csv",
+      "compression_method": 8,
+      "crc32": 1822469562,
+      "compressed_bytes": 89335,
+      "uncompressed_bytes": 626719,
+      "local_header_offset": 608678066,
+      "relative_path": "P09/ZEPHYR/2021_11_30-09_06_33_Summary.csv",
+      "sha256": "c86c9fdd71c3cd6948c118875a8a348db998a3c82552376954260fc66bfd85db"
+    },
+    {
+      "name": "dataset/P07/E4/HR.csv",
+      "compression_method": 8,
+      "crc32": 748876118,
+      "compressed_bytes": 6267,
+      "uncompressed_bytes": 18918,
+      "local_header_offset": 628482880,
+      "relative_path": "P07/E4/HR.csv",
+      "sha256": "722b49c5fbaad7d3b3e3b99fa8cc6ec200e524e5b7c7f891f6230f91882df9b2"
+    },
+    {
+      "name": "dataset/P07/VO2/DataAverage.csv",
+      "compression_method": 8,
+      "crc32": 3908214897,
+      "compressed_bytes": 35200,
+      "uncompressed_bytes": 184609,
+      "local_header_offset": 629141606,
+      "relative_path": "P07/VO2/DataAverage.csv",
+      "sha256": "e9ba2acdb439946772944556049657957722c5d3e7e7582cdca4db3cd71b244d"
+    },
+    {
+      "name": "dataset/P07/VO2/HeartRateMonitor-Data.csv",
+      "compression_method": 8,
+      "crc32": 762212098,
+      "compressed_bytes": 16961,
+      "uncompressed_bytes": 73192,
+      "local_header_offset": 629177170,
+      "relative_path": "P07/VO2/HeartRateMonitor-Data.csv",
+      "sha256": "aed8f6a4b3b4193d98ac84edec00b52a7c9fab91396974f727fc4c462ffb3e55"
+    },
+    {
+      "name": "dataset/P07/ZEPHYR/2021_11_29-15_19_07_Summary.csv",
+      "compression_method": 8,
+      "crc32": 3748293605,
+      "compressed_bytes": 115614,
+      "uncompressed_bytes": 910056,
+      "local_header_offset": 649553217,
+      "relative_path": "P07/ZEPHYR/2021_11_29-15_19_07_Summary.csv",
+      "sha256": "083f6d383c6a2ba927354b919b34b649c2f2eaad1408f5efee1edda803a3df98"
+    },
+    {
+      "name": "dataset/P16/VO2/Part2/DataAverage.csv",
+      "compression_method": 8,
+      "crc32": 2739830060,
+      "compressed_bytes": 3129,
+      "uncompressed_bytes": 20569,
+      "local_header_offset": 650482026,
+      "relative_path": "P16/VO2/Part2/DataAverage.csv",
+      "sha256": "936a2edee6e41675cf1af50ef4a2a84bbbc24851d6036883e94634c8777d8513"
+    },
+    {
+      "name": "dataset/P16/VO2/Part2/HeartRateMonitor-Data.csv",
+      "compression_method": 8,
+      "crc32": 961175948,
+      "compressed_bytes": 2709,
+      "uncompressed_bytes": 15171,
+      "local_header_offset": 650485496,
+      "relative_path": "P16/VO2/Part2/HeartRateMonitor-Data.csv",
+      "sha256": "c38a82fc5310b5269cbf6bcfad8e5b3ef5ab4deb69909ab9b2167ab7c2532c22"
+    },
+    {
+      "name": "dataset/P16/VO2/Part1/DataAverage.csv",
+      "compression_method": 8,
+      "crc32": 983932839,
+      "compressed_bytes": 25002,
+      "uncompressed_bytes": 131391,
+      "local_header_offset": 650539327,
+      "relative_path": "P16/VO2/Part1/DataAverage.csv",
+      "sha256": "90daa8294a93212634ac7d5b7a8e4b491fe48dd0156a889efbeb2649153a4b4b"
+    },
+    {
+      "name": "dataset/P16/VO2/Part1/HeartRateMonitor-Data.csv",
+      "compression_method": 8,
+      "crc32": 3275437409,
+      "compressed_bytes": 12244,
+      "uncompressed_bytes": 55407,
+      "local_header_offset": 650564670,
+      "relative_path": "P16/VO2/Part1/HeartRateMonitor-Data.csv",
+      "sha256": "ab89e7c70e2c14e508cddf1eeafe8ce3e0459500a3489358bbbda86565162754"
+    },
+    {
+      "name": "dataset/P02/VO2/Part2/DataAverage.csv",
+      "compression_method": 8,
+      "crc32": 2922456109,
+      "compressed_bytes": 29464,
+      "uncompressed_bytes": 152739,
+      "local_header_offset": 650667138,
+      "relative_path": "P02/VO2/Part2/DataAverage.csv",
+      "sha256": "465db9580dac22fc5b421fb52805db0b9b4aefed517bae6135a045192122db0d"
+    },
+    {
+      "name": "dataset/P02/VO2/Part2/HeartRateMonitor-Data.csv",
+      "compression_method": 8,
+      "crc32": 348548698,
+      "compressed_bytes": 15593,
+      "uncompressed_bytes": 55974,
+      "local_header_offset": 650696943,
+      "relative_path": "P02/VO2/Part2/HeartRateMonitor-Data.csv",
+      "sha256": "0dce0907dccfa7616759b91ae3962683f6b029d5574e0451a5dd918a7313a337"
+    },
+    {
+      "name": "dataset/P02/VO2/Part1/DataAverage.csv",
+      "compression_method": 8,
+      "crc32": 4182011628,
+      "compressed_bytes": 10602,
+      "uncompressed_bytes": 61067,
+      "local_header_offset": 650795198,
+      "relative_path": "P02/VO2/Part1/DataAverage.csv",
+      "sha256": "c3cc2b31833195ad83876f7485246d8754e2071e50b73a3277bf07e3de9fd790"
+    },
+    {
+      "name": "dataset/P02/VO2/Part1/HeartRateMonitor-Data.csv",
+      "compression_method": 8,
+      "crc32": 2907955344,
+      "compressed_bytes": 5519,
+      "uncompressed_bytes": 16840,
+      "local_header_offset": 650806141,
+      "relative_path": "P02/VO2/Part1/HeartRateMonitor-Data.csv",
+      "sha256": "4a33a31522305f0a0ef0507aaa8259a4fa81b12a52b475617da8c6ad85abd212"
+    },
+    {
+      "name": "dataset/P03/VO2/Part2/DataAverage.csv",
+      "compression_method": 8,
+      "crc32": 1237604177,
+      "compressed_bytes": 25520,
+      "uncompressed_bytes": 129794,
+      "local_header_offset": 650883156,
+      "relative_path": "P03/VO2/Part2/DataAverage.csv",
+      "sha256": "5d4ff98929ec24c4aa8d0eb7e67c0ac6d8478a821a71b4f8fd16bad28701a1ef"
+    },
+    {
+      "name": "dataset/P03/VO2/Part2/HeartRateMonitor-Data.csv",
+      "compression_method": 8,
+      "crc32": 277402746,
+      "compressed_bytes": 13935,
+      "uncompressed_bytes": 63728,
+      "local_header_offset": 650909052,
+      "relative_path": "P03/VO2/Part2/HeartRateMonitor-Data.csv",
+      "sha256": "6951c4f36334514bf78836924f0d7dfff7920feca683c5eb8a3c14a8d4bfbd3b"
+    },
+    {
+      "name": "dataset/P03/VO2/Part1/DataAverage.csv",
+      "compression_method": 8,
+      "crc32": 1810535538,
+      "compressed_bytes": 10949,
+      "uncompressed_bytes": 62582,
+      "local_header_offset": 650999496,
+      "relative_path": "P03/VO2/Part1/DataAverage.csv",
+      "sha256": "d31742e242f6c82094fb3ad0d28a6d2fe5dc7c07c410c2aa21c0167c2f8aeded"
+    },
+    {
+      "name": "dataset/P03/VO2/Part1/HeartRateMonitor-Data.csv",
+      "compression_method": 8,
+      "crc32": 658031837,
+      "compressed_bytes": 6781,
+      "uncompressed_bytes": 24831,
+      "local_header_offset": 651010821,
+      "relative_path": "P03/VO2/Part1/HeartRateMonitor-Data.csv",
+      "sha256": "616005bd2146d9f2fdc16391b85895a29dead8b0a22cdfa17b84cd8d33ef8014"
+    },
+    {
+      "name": "dataset/P12/VO2/Part2/DataAverage.csv",
+      "compression_method": 8,
+      "crc32": 852510375,
+      "compressed_bytes": 19004,
+      "uncompressed_bytes": 96162,
+      "local_header_offset": 651088290,
+      "relative_path": "P12/VO2/Part2/DataAverage.csv",
+      "sha256": "907e28003be8dd0c48cec3e44ac07be3d815c6ccb3df45d28141b0f05c7d3e4b"
+    },
+    {
+      "name": "dataset/P12/VO2/Part2/HeartRateMonitor-Data.csv",
+      "compression_method": 8,
+      "crc32": 1295652250,
+      "compressed_bytes": 9528,
+      "uncompressed_bytes": 42494,
+      "local_header_offset": 651107635,
+      "relative_path": "P12/VO2/Part2/HeartRateMonitor-Data.csv",
+      "sha256": "c78ae1bcf58f31396a2f227af21c90fae943471f667207e4af332debe4757194"
+    },
+    {
+      "name": "dataset/P12/VO2/Part1/DataAverage.csv",
+      "compression_method": 8,
+      "crc32": 517562050,
+      "compressed_bytes": 17229,
+      "uncompressed_bytes": 105114,
+      "local_header_offset": 651193028,
+      "relative_path": "P12/VO2/Part1/DataAverage.csv",
+      "sha256": "d10e0157ca21b21d3b9aefa5ced641a806ae012f22a4ad9cbb5904bc44276d80"
+    },
+    {
+      "name": "dataset/P12/VO2/Part1/HeartRateMonitor-Data.csv",
+      "compression_method": 8,
+      "crc32": 2552249514,
+      "compressed_bytes": 9577,
+      "uncompressed_bytes": 31293,
+      "local_header_offset": 651210598,
+      "relative_path": "P12/VO2/Part1/HeartRateMonitor-Data.csv",
+      "sha256": "7235b8cb8d807670ec83f9944b939c52cc8aef65d6c5fc215f6b3da77f854e39"
+    }
+  ]
+}

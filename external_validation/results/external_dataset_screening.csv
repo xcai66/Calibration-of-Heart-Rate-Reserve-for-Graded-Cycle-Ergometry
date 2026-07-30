@@ -1,0 +1,5 @@
+dataset,stable_record,license_or_access,heart_rate,independent_outcome,decision,reason
+University of Malaga treadmill maximal exercise tests,https://doi.org/10.13026/7ezk-j442,PhysioNet Contributor Review Health Data License 1.5.0,breath-by-breath ECG heart rate,VO2 VCO2 and recovery,Included,Meets the locked construct-validation criteria
+WEEE,https://doi.org/10.5281/zenodo.6420886,CC BY 4.0,multidevice heart rate,indirect-calorimetry VO2,Included,Meets secondary construct and device-transportability criteria
+SoccerMon,https://doi.org/10.5281/zenodo.10033832,public Zenodo record,objective archives include optional heart rate,session subjective reports,Excluded after feasibility audit,Objective archives total 99.1 GB and the available documentation did not establish an analysis-ready session-level HR anchor and RPE linkage within the resources used for this revision
+Polar futsal fatigue-monitoring record,https://doi.org/10.5281/zenodo.15076183,CC BY 4.0 claimed by record,described in metadata,described RPE categories,Excluded after repository audit,Zenodo API record contained zero downloadable files on 2026-07-30

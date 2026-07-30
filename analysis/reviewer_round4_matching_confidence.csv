@@ -1,0 +1,3 @@
+matching_tier,sessions,participants,median_report_delay_min,median_duration_difference_min
+standard,52,9,67.06983333333334,12.274999999999999
+strict,203,15,60.44063333333334,3.049999999999997

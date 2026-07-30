@@ -1,0 +1,2 @@
+full_data_lambda,adjacent_decile_multiplier,weight_ratio_0.95_vs_0.05,interpretation
+6.2,1.858928041846342,265.0716057862269,"Relative exponential weight before normalization; the final index remains bounded in [0,1]."

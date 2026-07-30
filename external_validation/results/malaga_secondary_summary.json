@@ -1,0 +1,208 @@
+{
+  "status": "exploratory_secondary",
+  "bootstrap_replicates": 5000,
+  "participant_clustered": true,
+  "all_prespecified_secondary_outcomes_reported": true,
+  "results": [
+    {
+      "outcome": "epoc_180_ml",
+      "outcome_label": "180-s excess recovery VO2",
+      "association": "mean_hrr",
+      "tests": 758,
+      "participants": 668,
+      "spearman_rho": -0.04874403640491679,
+      "ci_low": -0.12199065419465374,
+      "ci_high": 0.024676324074495166
+    },
+    {
+      "outcome": "epoc_180_ml",
+      "outcome_label": "180-s excess recovery VO2",
+      "association": "thrr_i",
+      "tests": 758,
+      "participants": 668,
+      "spearman_rho": -0.014714300913893596,
+      "ci_low": -0.0872068408717064,
+      "ci_high": 0.0585887203852651
+    },
+    {
+      "outcome": "epoc_180_ml",
+      "outcome_label": "180-s excess recovery VO2",
+      "association": "delta_tilt",
+      "tests": 758,
+      "participants": 668,
+      "spearman_rho": 0.06930354599609274,
+      "ci_low": -0.005592260890737953,
+      "ci_high": 0.14201740527089396
+    },
+    {
+      "outcome": "epoc_180_ml",
+      "outcome_label": "180-s excess recovery VO2",
+      "association": "thrr_i_minus_mean_hrr",
+      "tests": 758,
+      "participants": 668,
+      "spearman_rho": 0.0340297354910232,
+      "ci_low": -0.03102716060903436,
+      "ci_high": 0.09966902853045684
+    },
+    {
+      "outcome": "effort_peak_vo2_ml_min",
+      "outcome_label": "peak exercise VO2",
+      "association": "mean_hrr",
+      "tests": 758,
+      "participants": 668,
+      "spearman_rho": -0.07585547496901276,
+      "ci_low": -0.15408087885953461,
+      "ci_high": 0.0003020938581144683
+    },
+    {
+      "outcome": "effort_peak_vo2_ml_min",
+      "outcome_label": "peak exercise VO2",
+      "association": "thrr_i",
+      "tests": 758,
+      "participants": 668,
+      "spearman_rho": -0.05243710798616487,
+      "ci_low": -0.12711615716912722,
+      "ci_high": 0.02199690371564273
+    },
+    {
+      "outcome": "effort_peak_vo2_ml_min",
+      "outcome_label": "peak exercise VO2",
+      "association": "delta_tilt",
+      "tests": 758,
+      "participants": 668,
+      "spearman_rho": 0.06400953721333967,
+      "ci_low": -0.01171065302171453,
+      "ci_high": 0.1415079462824099
+    },
+    {
+      "outcome": "effort_peak_vo2_ml_min",
+      "outcome_label": "peak exercise VO2",
+      "association": "thrr_i_minus_mean_hrr",
+      "tests": 758,
+      "participants": 668,
+      "spearman_rho": 0.023418366982847896,
+      "ci_low": -0.04465769358799783,
+      "ci_high": 0.09256435531014114
+    },
+    {
+      "outcome": "hr_recovery_60_bpm",
+      "outcome_label": "one-minute heart-rate recovery",
+      "association": "mean_hrr",
+      "tests": 758,
+      "participants": 668,
+      "spearman_rho": -0.14097150109557435,
+      "ci_low": -0.21682280297836726,
+      "ci_high": -0.06421001660188018
+    },
+    {
+      "outcome": "hr_recovery_60_bpm",
+      "outcome_label": "one-minute heart-rate recovery",
+      "association": "thrr_i",
+      "tests": 758,
+      "participants": 668,
+      "spearman_rho": -0.049773376077273446,
+      "ci_low": -0.12616876479806774,
+      "ci_high": 0.02779075356710642
+    },
+    {
+      "outcome": "hr_recovery_60_bpm",
+      "outcome_label": "one-minute heart-rate recovery",
+      "association": "delta_tilt",
+      "tests": 758,
+      "participants": 668,
+      "spearman_rho": 0.13786977000182643,
+      "ci_low": 0.06273861678616605,
+      "ci_high": 0.2155878520833638
+    },
+    {
+      "outcome": "hr_recovery_60_bpm",
+      "outcome_label": "one-minute heart-rate recovery",
+      "association": "thrr_i_minus_mean_hrr",
+      "tests": 758,
+      "participants": 668,
+      "spearman_rho": 0.09119812501830091,
+      "ci_low": 0.026045036198828253,
+      "ci_high": 0.15988631622231733
+    },
+    {
+      "outcome": "effort_peak_rer",
+      "outcome_label": "peak exercise RER",
+      "association": "mean_hrr",
+      "tests": 758,
+      "participants": 668,
+      "spearman_rho": 0.1951207318158336,
+      "ci_low": 0.1214777293471693,
+      "ci_high": 0.26722615390224785
+    },
+    {
+      "outcome": "effort_peak_rer",
+      "outcome_label": "peak exercise RER",
+      "association": "thrr_i",
+      "tests": 758,
+      "participants": 668,
+      "spearman_rho": 0.12219974802738345,
+      "ci_low": 0.04528989551906786,
+      "ci_high": 0.1946401985577665
+    },
+    {
+      "outcome": "effort_peak_rer",
+      "outcome_label": "peak exercise RER",
+      "association": "delta_tilt",
+      "tests": 758,
+      "participants": 668,
+      "spearman_rho": -0.1935647115669329,
+      "ci_low": -0.2648819286325363,
+      "ci_high": -0.12146586131141245
+    },
+    {
+      "outcome": "effort_peak_rer",
+      "outcome_label": "peak exercise RER",
+      "association": "thrr_i_minus_mean_hrr",
+      "tests": 758,
+      "participants": 668,
+      "spearman_rho": -0.07292098378845013,
+      "ci_low": -0.1344651981546552,
+      "ci_high": -0.01313779155955865
+    },
+    {
+      "outcome": "recovery_peak_rer",
+      "outcome_label": "peak recovery RER",
+      "association": "mean_hrr",
+      "tests": 758,
+      "participants": 668,
+      "spearman_rho": 0.17784803361188897,
+      "ci_low": 0.10327155087524216,
+      "ci_high": 0.24999567520213023
+    },
+    {
+      "outcome": "recovery_peak_rer",
+      "outcome_label": "peak recovery RER",
+      "association": "thrr_i",
+      "tests": 758,
+      "participants": 668,
+      "spearman_rho": 0.10172209943455156,
+      "ci_low": 0.02988014413377575,
+      "ci_high": 0.17316478498521987
+    },
+    {
+      "outcome": "recovery_peak_rer",
+      "outcome_label": "peak recovery RER",
+      "association": "delta_tilt",
+      "tests": 758,
+      "participants": 668,
+      "spearman_rho": -0.17070576483142674,
+      "ci_low": -0.24392774698481887,
+      "ci_high": -0.09869542118661713
+    },
+    {
+      "outcome": "recovery_peak_rer",
+      "outcome_label": "peak recovery RER",
+      "association": "thrr_i_minus_mean_hrr",
+      "tests": 758,
+      "participants": 668,
+      "spearman_rho": -0.07612593417733741,
+      "ci_low": -0.1370357575775069,
+      "ci_high": -0.012804110719216626
+    }
+  ]
+}

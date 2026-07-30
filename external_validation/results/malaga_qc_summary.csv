@@ -1,0 +1,6 @@
+status,reason,tests
+excluded,lower_anchor_unavailable,2
+excluded,pre_effort_shorter_than_60s,68
+excluded,recovery_shorter_than_180s,145
+excluded,recovery_vo2_unavailable,19
+included,included,758
