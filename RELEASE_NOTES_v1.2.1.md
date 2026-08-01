@@ -17,3 +17,8 @@ This patch release corrects the analysis hierarchy described in the statistical 
 - All reported numerical estimates, intervals, and exact P values
 
 The release continues to preserve favorable, null, and unfavorable comparator results. Third-party raw data are not redistributed.
+
+## Persistent archive
+
+- Version DOI: https://doi.org/10.5281/zenodo.21742204
+- Concept DOI (all versions): https://doi.org/10.5281/zenodo.21689574

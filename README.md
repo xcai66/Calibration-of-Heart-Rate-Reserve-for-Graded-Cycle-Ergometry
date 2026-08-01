@@ -102,6 +102,6 @@ Original code is released under the MIT License. Third-party data and derivative
 
 ## Persistent archive
 
-Release `v1.2.1` is a documentation-only clarification aligning the statistical appendix hierarchy with the round-5 incremental comparison; formulas, samples, scripts, figures, and numerical results are unchanged. Use the concept DOI [10.5281/zenodo.21689574](https://doi.org/10.5281/zenodo.21689574) for the latest archived version. Release `v1.2.0` remains at [10.5281/zenodo.21740906](https://doi.org/10.5281/zenodo.21740906), release `v1.1.0` at [10.5281/zenodo.21710544](https://doi.org/10.5281/zenodo.21710544), and release `v1.0.0` at [10.5281/zenodo.21689575](https://doi.org/10.5281/zenodo.21689575).
+Release `v1.2.1` is a documentation-only clarification aligning the statistical appendix hierarchy with the round-5 incremental comparison; formulas, samples, scripts, figures, and numerical results are unchanged. Cite the frozen v1.2.1 archive at [10.5281/zenodo.21742204](https://doi.org/10.5281/zenodo.21742204). The concept DOI [10.5281/zenodo.21689574](https://doi.org/10.5281/zenodo.21689574) always resolves to the latest archived version. Release `v1.2.0` remains at [10.5281/zenodo.21740906](https://doi.org/10.5281/zenodo.21740906), release `v1.1.0` at [10.5281/zenodo.21710544](https://doi.org/10.5281/zenodo.21710544), and release `v1.0.0` at [10.5281/zenodo.21689575](https://doi.org/10.5281/zenodo.21689575).
 
 [![DOI](https://zenodo.org/badge/1315350784.svg)](https://doi.org/10.5281/zenodo.21689574)

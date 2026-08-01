@@ -1,12 +1,13 @@
 # Release checklist
 
-## Prepared for v1.2.1
+## Completed for v1.2.1
 
 - [x] Clarify that the central round-5 comparison is mean HRR versus mean HRR plus Δtilt with participant-balanced MAE used for inner selection.
 - [x] Label the older Spearman-driven formula-family selection as an exploratory sensitivity analysis.
 - [x] Re-render and visually inspect all 17 pages of the statistical appendix.
 - [x] Confirm that formulas, samples, scripts, figures, and numerical results are unchanged from v1.2.0.
-- [ ] Publish the GitHub release and linked Zenodo version, then record the version-specific DOI on `main`.
+- [x] Publish GitHub release `v1.2.1` and archive the exact release on Zenodo at version DOI `10.5281/zenodo.21742204`.
+- [x] Record the version-specific DOI on `main` and synchronize the submission package.
 
 ## Completed for v1.2.0
 
