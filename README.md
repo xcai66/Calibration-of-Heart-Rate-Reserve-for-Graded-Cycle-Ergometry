@@ -6,7 +6,7 @@ Repository: https://github.com/xcai66/tHRR-I-PMData
 
 ## Scope and evidential status
 
-The formula family was developed retrospectively in the public PMData sports-logging dataset. PMData results are therefore exploratory method-development evidence, not independent validation. The round-5 local revision adds a direct nested comparison of mean HRR versus mean HRR plus Δtilt, participant-balanced inner selection by MAE, transparent variance and upper-zone-time comparators, exact participant-level paired tests, sample-flow reconciliation, and repeated-measures agreement analyses.
+The formula family was developed retrospectively in the public PMData sports-logging dataset. PMData results are therefore exploratory method-development evidence, not independent validation. The round-5 release adds a direct nested comparison of mean HRR versus mean HRR plus Δtilt, participant-balanced inner selection by MAE, transparent variance and upper-zone-time comparators, exact participant-level paired tests, sample-flow reconciliation, and repeated-measures agreement analyses.
 
 The ten-bin formula and λ = 6.2 were fixed before the external outcome analyses. WEEE supports within-participant convergence with graded oxygen uptake and transportability of the complete score from a Zephyr chest signal. It does not show incremental association or prediction beyond mean HRR, and high-running-stage retention was only 3/16. University of Malaga recovery analyses likewise show no stable incremental prediction after mean HRR and covariates. The score is a candidate retrospective session-review descriptor. It is not a validated training prescription, alert threshold, clinical measure, or injury-prevention tool.
 
@@ -74,7 +74,7 @@ npm run all-figures
 
 The complete PMData, WEEE, and Malaga pipelines were rerun from the locally held, provider-distributed source files on 1 August 2026 with Python 3.12.13 and the pinned dependencies. All scripts exited successfully and reproduced the frozen round-5 estimates reported below. A machine-readable verification record and human-readable report are in `reproduction/`; raw console logs are retained in the submission package but are not published because they include machine-specific paths.
 
-## Main reproducibility checks in the round-5 local revision
+## Main reproducibility checks in the round-5 release
 
 - Direct fully nested PMData comparison: mean HRR plus Δtilt MAE 1.232 versus 1.302 for mean HRR; ΔMAE -0.070 RPE units (95% participant-cluster bootstrap interval -0.165 to 0.035), exact P=0.228, with 11/15 participants favoring the augmented model.
 - Fixed-λ=6.2 sensitivity: mean HRR plus Δtilt ΔMAE -0.074 (-0.155 to 0.002). Stand-alone fixed tHRR-I gave ΔMAE -0.074 (-0.133 to -0.017), but that comparison does not isolate distribution information.

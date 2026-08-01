@@ -7,7 +7,7 @@
 - [x] Rebuild and visually inspect all five main figures.
 - [x] Confirm that no third-party raw data are included in the release tree.
 - [x] Add a public reproduction report and machine-readable verification record.
-- [x] Update release metadata to version 1.2.0 and retain the stable concept DOI pending version-DOI publication.
+- [x] Update release metadata to version 1.2.0 and retain the stable concept DOI across versions.
 - [x] Push commit `db4392c`, tag `v1.2.0`, and publish the GitHub release.
 - [x] Archive the exact release on Zenodo at version DOI `10.5281/zenodo.21740906`.
 - [x] Backfill the version DOI into the repository citation metadata and submission package.
