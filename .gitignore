@@ -6,6 +6,7 @@ venv/
 node_modules/
 source/pmdata/
 external_validation/data/raw/
+figures_improved/
 qa_*/
 *.tmp
 *.log

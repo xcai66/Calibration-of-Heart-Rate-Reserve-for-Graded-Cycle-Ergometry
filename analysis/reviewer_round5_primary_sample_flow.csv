@@ -1,0 +1,6 @@
+stage,sessions,definition
+Archived PMSys RPE records,783,all archived RPE rows
+Broad tracker-linked pairs,469,timestamp and activity-compatible links
+Bidirectionally unique broad pairs,447,unique in both matching directions
+Unique broad pairs passing HR quality control,267,heart-rate signal criteria satisfied
+Primary analysis sessions,255,all primary matching and outcome criteria satisfied

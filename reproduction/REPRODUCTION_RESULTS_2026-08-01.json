@@ -1,0 +1,32 @@
+{
+  "verification_date": "2026-08-01",
+  "python_version": "3.12.13",
+  "pmdata": {
+    "sessions": 255,
+    "participants": 15,
+    "nested_incremental_delta_mae": -0.0699496725354552,
+    "nested_incremental_ci": [-0.16544334872389313, 0.03487836821016581],
+    "nested_incremental_exact_p": 0.2275390625,
+    "fixed_lambda": 6.2,
+    "fixed_incremental_delta_mae": -0.0737888145363529,
+    "fixed_incremental_ci": [-0.15494498038670443, 0.0017989210274185934]
+  },
+  "weee": {
+    "stages": 77,
+    "participants": 16,
+    "thrr_i_within_person_r": 0.860886,
+    "mean_hrr_within_person_r": 0.854632,
+    "incremental_delta_mae": 0.024208,
+    "incremental_delta_mae_ci": [-0.115456, 0.170494],
+    "zephyr_thrr_i_ccc": 0.846436,
+    "zephyr_thrr_i_ccc_ci": [0.654160, 0.946413]
+  },
+  "malaga": {
+    "eligible_tests": 758,
+    "participants": 668,
+    "primary_180s_delta_mae_ml": 0.008545,
+    "primary_180s_delta_mae_ci": [-1.234117, 1.276085],
+    "primary_180s_delta_r2": -0.0017365
+  },
+  "status": "complete"
+}

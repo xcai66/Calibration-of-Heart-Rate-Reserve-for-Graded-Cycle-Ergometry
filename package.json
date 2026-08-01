@@ -1,12 +1,14 @@
 {
   "name": "thrr-i-pmdata",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "private": true,
   "description": "Figure reproduction for the tHRR-I development and external construct-evaluation study",
   "type": "module",
   "scripts": {
     "figures": "node build_improved_figures.mjs",
-    "external-figure": "node external_validation/scripts/build_external_figures.mjs"
+    "external-figure": "node external_validation/scripts/build_external_figures.mjs",
+    "round5-figure": "node build_round5_figure.mjs",
+    "all-figures": "npm run figures && npm run round5-figure && npm run external-figure"
   },
   "dependencies": {
     "sharp": "0.34.5"

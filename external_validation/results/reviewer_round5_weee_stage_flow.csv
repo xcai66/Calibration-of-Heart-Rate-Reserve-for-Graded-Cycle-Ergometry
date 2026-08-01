@@ -1,0 +1,7 @@
+stage,eligible_after_anchor_qc,included,excluded_stage_qc,retention_percent
+sit,16,16,0,100.0
+stand,16,16,0,100.0
+cycle_low,16,15,1,93.75
+cycle_high,16,14,2,87.5
+run_low,16,13,3,81.25
+run_high,16,3,13,18.75

@@ -1,5 +1,14 @@
 # Release checklist
 
+## Completed for v1.2.0
+
+- [x] Rerun PMData from provider-distributed source files with the pinned Python environment.
+- [x] Rerun WEEE and Malaga analyses from provider-distributed source files without retuning λ.
+- [x] Rebuild and visually inspect all five main figures.
+- [x] Confirm that no third-party raw data are included in the release tree.
+- [x] Add a public reproduction report and machine-readable verification record.
+- [x] Update release metadata to version 1.2.0 and retain the stable concept DOI pending version-DOI publication.
+
 ## Completed for v1.1.0
 
 - [x] Confirm that the repository contains no raw PMData, WEEE, or Malaga files.

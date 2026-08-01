@@ -16,6 +16,7 @@ STEPS = [
     "reviewer_round2_analysis.py",
     "reviewer_round3_analysis.py",
     "reviewer_round4_analysis.py",
+    "reviewer_round5_analysis.py",
 ]
 
 

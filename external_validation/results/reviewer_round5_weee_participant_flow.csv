@@ -1,0 +1,4 @@
+flow_stage,participants,participant_stages,reason
+Source participants,17,102,17 participants x 6 protocol stages
+Participants with resting-HR anchor,16,96,P10 excluded because the sitting anchor was missing
+Final construct-analysis sample,16,77,19 additional participant-stage records failed reference HR or VO2 coverage
