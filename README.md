@@ -102,6 +102,6 @@ Original code is released under the MIT License. Third-party data and derivative
 
 ## Persistent archive
 
-Release `v1.2.0` contains the round-5 statistical and reproducibility revision. Until its version-specific archive DOI is inserted after publication, cite the stable concept DOI [10.5281/zenodo.21689574](https://doi.org/10.5281/zenodo.21689574). Release `v1.1.0` remains at [10.5281/zenodo.21710544](https://doi.org/10.5281/zenodo.21710544), and release `v1.0.0` remains at [10.5281/zenodo.21689575](https://doi.org/10.5281/zenodo.21689575).
+Release `v1.2.0`, containing the round-5 statistical and reproducibility revision, is archived at the version-specific DOI [10.5281/zenodo.21740906](https://doi.org/10.5281/zenodo.21740906). Release `v1.1.0` remains at [10.5281/zenodo.21710544](https://doi.org/10.5281/zenodo.21710544), and release `v1.0.0` remains at [10.5281/zenodo.21689575](https://doi.org/10.5281/zenodo.21689575). The concept DOI [10.5281/zenodo.21689574](https://doi.org/10.5281/zenodo.21689574) represents all versions.
 
 [![DOI](https://zenodo.org/badge/1315350784.svg)](https://doi.org/10.5281/zenodo.21689574)

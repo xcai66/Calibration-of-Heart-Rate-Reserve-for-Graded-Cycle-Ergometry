@@ -27,3 +27,7 @@ The ten-bin tHRR-I formula is retained without further outcome-guided modificati
 ## Reproduction verification
 
 The PMData and external-validation pipelines were rerun from provider-distributed source files with Python 3.12.13 and the exact packages in `requirements.txt`. The complete runs exited successfully and reproduced the frozen estimates. All five main figures were regenerated. `reproduction/REPRODUCTION_REPORT_2026-08-01.md` records the verification boundary and result fingerprints.
+
+## Persistent archive
+
+The exact GitHub `v1.2.0` release is archived at https://doi.org/10.5281/zenodo.21740906. The all-versions concept DOI is https://doi.org/10.5281/zenodo.21689574.
