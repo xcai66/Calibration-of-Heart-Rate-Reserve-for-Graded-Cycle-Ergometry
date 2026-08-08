@@ -1,2 +1,0 @@
-splits,median_selected_lambda,lambda_q1,lambda_q3,median_mae_difference,mae_difference_q1,mae_difference_q3,splits_favoring_tilted_percent
-200,9.3,8.9,9.3,-0.09394938473554043,-0.13526814775488472,-0.03787727557225453,86.0

@@ -1,0 +1,11 @@
+{
+  "sport": "Cycling",
+  "model_family": "normalized quadratic tail transform",
+  "tau": 0.9,
+  "kappa": 5.75,
+  "denominator": 1.0574999999999999,
+  "selection_source": "development-only grouped cross-validation",
+  "primary_target": "VO2 reserve",
+  "primary_validation_unit": "complete graded test",
+  "external_validation_unit": "ACTES participant"
+}

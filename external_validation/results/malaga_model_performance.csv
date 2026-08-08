@@ -1,7 +1,0 @@
-model,metric,estimate
-base,participant_balanced_mae,347.4036561196649
-base,participant_balanced_rmse,455.6847845108845
-base,participant_balanced_r2,0.23383176841609943
-augmented,participant_balanced_mae,347.4122011622174
-augmented,participant_balanced_rmse,456.20089952858956
-augmented,participant_balanced_r2,0.23209523966120726

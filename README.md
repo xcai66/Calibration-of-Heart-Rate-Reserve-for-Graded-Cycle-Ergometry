@@ -1,107 +1,89 @@
-# tHRR-I-PMData
+# CycHRR-T
 
-Reproducible code, protocols, frozen derived results, and publication figures for the development and external construct evaluation of a bounded, tail-sensitive heart-rate-reserve distribution index (tHRR-I).
+CycHRR-T is a reproducible methods project evaluating a bounded, endpoint-preserving group calibration of heart-rate reserve (HRR) for concurrent intensity estimation in graded cycle ergometry.
 
-Repository: https://github.com/xcai66/tHRR-I-PMData
+## Locked function
 
-## Scope and evidential status
+For HRR fraction `h` clipped to `[0, 1]`:
 
-The formula family was developed retrospectively in the public PMData sports-logging dataset. PMData results are therefore exploratory method-development evidence, not independent validation. The round-5 release adds a direct nested comparison of mean HRR versus mean HRR plus Δtilt, participant-balanced inner selection by MAE, transparent variance and upper-zone-time comparators, exact participant-level paired tests, sample-flow reconciliation, and repeated-measures agreement analyses.
-
-The ten-bin formula and λ = 6.2 were fixed before the external outcome analyses. WEEE supports within-participant convergence with graded oxygen uptake and transportability of the complete score from a Zephyr chest signal. It does not show incremental association or prediction beyond mean HRR, and high-running-stage retention was only 3/16. University of Malaga recovery analyses likewise show no stable incremental prediction after mean HRR and covariates. The score is a candidate retrospective session-review descriptor. It is not a validated training prescription, alert threshold, clinical measure, or injury-prevention tool.
-
-## Author
-
-BoTao Cai (蔡伯韬)<br>
-College of Physical Education, Jimei University, Xiamen 361021, China<br>
-Email: xcai2004xcai@gmail.com
-
-The work was conducted independently without external funding. The author declares no competing financial or non-financial interests.
-
-## Repository contents
-
-- `analysis/`: frozen PMData session-level and summary outputs, including reviewer-round-5 incremental analyses.
-- `external_validation/protocol/`: the dated external-analysis protocol and implementation decisions.
-- `external_validation/results/`: derived non-identifying WEEE and Malaga results.
-- `external_validation/data/processed/`: derived stage- and test-level analysis tables.
-- `external_validation/manifests/`: source records and integrity information.
-- `external_validation/scripts/`: WEEE, Malaga, synchronization, sensitivity, and Figure 5 scripts.
-- `figures/`: publication figures in PNG and SVG formats.
-- `results/tables/`: the auditable results workbook.
-- `manifests/`: PMData source URLs, sizes, and SHA-256 checksums.
-- `docs/`: statistical appendix and data-license documentation.
-- `run_analysis.py`: PMData analysis order.
-- `run_external_analysis.py`: external analysis order after licensed source data have been obtained.
-
-## Third-party data access
-
-Raw third-party files are not redistributed in this repository.
-
-- PMData: https://datasets.simula.no/pmdata/ and https://osf.io/vx4bk/ (CC BY-NC 4.0).
-- Malaga treadmill tests v1.0.1: https://doi.org/10.13026/7ezk-j442.
-- WEEE: https://doi.org/10.5281/zenodo.6420886 (CC BY 4.0).
-
-Users must obtain data from the original providers and follow their terms. Source provenance, retrieval decisions, and integrity information are documented in `DATA_LICENSE.md` and `external_validation/DATA_LICENSE_AND_PROVENANCE.md`.
-
-## Python reproduction
-
-The verified environment used Python 3.12.13. Install the pinned packages, obtain the licensed data, and set `PMDATA_ROOT` for the PMData reconstruction.
-
-```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-export PMDATA_ROOT=/absolute/path/to/pmdata
-python run_analysis.py
+```text
+g(h) = [h + 5.75 * max(h - 0.90, 0)^2] / 1.0575
 ```
 
-The external scripts expect source files under `external_validation/data/raw/`; this path is ignored by Git. Dataset-specific decisions and required files are documented in `external_validation/protocol/` and `external_validation/manifests/`.
+The function was selected using development-only grouped cross-validation. The final temporal cycling holdout and the ACTES external dataset were not used for parameter tuning.
 
-```bash
-python run_external_analysis.py
+## Repository structure
+
+```text
+00_foundation/    Claim boundaries and manuscript argument map
+01_sources/       Public source archives and source licenses
+02_data/          Extracted raw files and derived analysis data
+03_code/          Reproducible analysis and figure code
+04_results/       Tables, source-data workbook, and figures
+05_manuscript/    English and Chinese manuscripts
+06_submission/    Submission-facing and reference files
+07_review/        Citation, statistical, submission, and visual QA records
 ```
 
-## Figure reproduction
+## Reproduce the analysis
 
-The verified figure environment used Node.js and Sharp 0.34.5.
+1. Install Python 3.12 or newer.
+2. Create an isolated environment and install `03_code/requirements.txt`.
+3. Ensure these public source files are present:
+   - `01_sources/data_v2_clean.zip`, from Zenodo DOI `10.5281/zenodo.10841412`.
+   - `01_sources/actes_test_measure.csv`, from PhysioNet DOI `10.13026/2qs3-kh43`.
+4. From the project root, run:
 
 ```bash
-npm install
-npm run all-figures
+bash 03_code/run_all.sh
 ```
 
-## Verified full rerun
+The pipeline extracts the workbooks, recreates the deterministic development/holdout split, performs development-only candidate comparison, applies the locked model, runs complete-unit uncertainty, endpoint-exclusion, intensity-band, practical-agreement, time-offset, parameter, and anchor analyses, and regenerates the manuscript figures.
 
-The complete PMData, WEEE, and Malaga pipelines were rerun from the locally held, provider-distributed source files on 1 August 2026 with Python 3.12.13 and the pinned dependencies. All scripts exited successfully and reproduced the frozen round-5 estimates reported below. A machine-readable verification record and human-readable report are in `reproduction/`; raw console logs are retained in the submission package but are not published because they include machine-specific paths.
+Run the implementation tests with:
 
-## Main reproducibility checks in the round-5 release
+```bash
+python3 03_code/test_cychrr.py
+```
 
-- Direct fully nested PMData comparison: mean HRR plus Δtilt MAE 1.232 versus 1.302 for mean HRR; ΔMAE -0.070 RPE units (95% participant-cluster bootstrap interval -0.165 to 0.035), exact P=0.228, with 11/15 participants favoring the augmented model.
-- Fixed-λ=6.2 sensitivity: mean HRR plus Δtilt ΔMAE -0.074 (-0.155 to 0.002). Stand-alone fixed tHRR-I gave ΔMAE -0.074 (-0.133 to -0.017), but that comparison does not isolate distribution information.
-- Transparent baselines were retained regardless of direction: mean HRR plus variance ΔMAE -0.008 (-0.064 to 0.054); mean HRR plus time at or above 80% HRR ΔMAE -0.023 (-0.136 to 0.107).
-- Selection-aware transparent pipeline: ΔMAE -0.057 (-0.151 to 0.048); 14/15 outer folds selected Δtilt and one selected time at or above 80% HRR.
-- Strict PMData matching tier: 203 sessions from 15 participants; ΔMAE -0.064 (-0.123 to -0.013).
-- Circular within-participant RPE permutation, with λ reselected in all 5,000 replicates: empirical P = 0.00020.
-- WEEE within-participant VO₂ association: r = 0.861 for tHRR-I and 0.855 for mean HRR; difference 0.006 (-0.008 to 0.027).
-- WEEE incremental VO₂ prediction after adding Δtilt: ΔMAE 0.024 mL·kg⁻¹·min⁻¹ (-0.115 to 0.170).
-- Zephyr tHRR-I agreement: participant-balanced CCC 0.846 (0.654 to 0.946), participant-balanced bias -0.025 HRR units (-0.044 to -0.001), and repeated-measures limits -0.262 to 0.213. The older stage-level ICC(A,1) is retained only as a secondary descriptor.
-- WEEE sample flow: 102 possible stages from 17 participants, 96 stages after resting-anchor eligibility, and 77 final stages; high-running retention was 3/16 (18.8%).
-- Malaga primary 180-second recovery endpoint: ΔMAE 0.009 mL (-1.234 to 1.276), with no stable benefit across endpoint and anchor variants.
+## Apply CycHRR-T to a heart-rate file
 
-## Random seeds
+Prepare a CSV containing an `hr` column in beats per minute. An optional `duration_seconds` column supplies the time represented by each row; otherwise, rows receive equal weight. Then run:
 
-- `20260728`: original analysis.
-- `20260729`: reviewer-revision bootstrap.
-- `20260731`: repeated grouped splits, selection-aware analysis, permutation negative control, and external sensitivity analyses.
-- `20260730`: raw-signal, physiological-anchor, and full-rematching analyses.
-- `20260801`: round-5 participant-loss bootstrap, exact sign-flip tests, sample-flow reconciliation, and repeated-measures WEEE agreement.
+```bash
+python3 03_code/07_apply_cychrr.py input.csv output.csv --rest-hr 55 --max-hr 190
+```
 
-## License and citation
+The output includes clipped raw HRR and pointwise `CycHRR-T`. It also reports a descriptive duration-weighted mean transformed intensity and an exploratory duration-weighted exposure. These summaries are not validated training-load scores. Because the validation used graded cycle-ergometer data with directly determined HR anchors, replacing measured anchors with age-predicted or error-prone values can materially alter performance.
 
-Original code is released under the MIT License. Third-party data and derivative materials remain subject to their source terms. Cite the source datasets and the archived software release when reusing this work. Citation metadata are provided in `CITATION.cff`.
+## Primary result
 
-## Persistent archive
+In 84 temporally held-out cycling test files, CycHRR-T reduced complete-test VO2R MAE from 0.0617 to 0.0510 relative to raw HRR, an absolute improvement of 1.07 percentage points. Exact 10% VO2R-band agreement increased from 50.9% to 59.7%. Performance was similar to development-fitted linear calibration for the primary target, and high-intensity VO2R analyses did not establish an advantage for the quadratic tail. The method is therefore an endpoint-preserving group calibration, not a universally superior nonlinear model.
 
-The current and only maintained GitHub release is `v1.2.1`. It aligns the statistical appendix hierarchy with the round-5 incremental comparison; formulas, samples, scripts, figures, and numerical results are unchanged. Cite the frozen archive at [10.5281/zenodo.21742204](https://doi.org/10.5281/zenodo.21742204). The concept DOI [10.5281/zenodo.21689574](https://doi.org/10.5281/zenodo.21689574) resolves to the latest archived version.
+## Scope
 
-[![DOI](https://zenodo.org/badge/1315350784.svg)](https://doi.org/10.5281/zenodo.21689574)
+Validated here:
+
+- Concurrent VO2R and normalized workload estimation in controlled graded cycling.
+- Continuous HRR and an INTERLIVE-compatible 10-bin representation.
+- Temporal and external laboratory-task transport without refitting.
+
+Not validated here:
+
+- Wrist-photoplethysmography accuracy.
+- Outdoor cycling, interval recovery, prolonged cardiovascular drift, heat, altitude, or medication-altered HR.
+- Fatigue, recovery, training adaptation, injury risk, clinical outcome, or return-to-play decisions.
+
+Duration-weighted session summaries are implementation descriptors only. The study evaluates the pointwise transfer against concurrent metabolic and mechanical intensity and does not validate aggregate scores against training-response outcomes.
+
+## Data licenses
+
+The development dataset is licensed CC BY 4.0 by its creators. ACTES is distributed under the PhysioNet Open Data Commons Attribution License. Their original licenses and citations must be retained. Analysis code in this package is MIT licensed. The manuscript and newly generated figures are provided for the author's scholarly use; journal copyright terms may supersede this package after publication.
+
+## Citation
+
+The public repository is https://github.com/xcai66/tHRR-I-PMData. Cite the accompanying manuscript and both source datasets. A new version-specific Zenodo DOI should be inserted only after the revised release has been archived.
+
+## Contact
+
+BoTao Cai, College of Physical Education, Jimei University, Xiamen, Fujian, China. Email: xcai2004xcai@gmail.com. ORCID: https://orcid.org/0009-0002-3662-4539.

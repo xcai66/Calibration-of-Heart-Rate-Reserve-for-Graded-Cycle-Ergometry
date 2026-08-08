@@ -1,4 +1,0 @@
-contrast,metric,estimate,ci_low,ci_high
-augmented_minus_base,participant_balanced_mae,0.008545042552498217,-1.2341171683243914,1.2760846008307205
-augmented_minus_base,participant_balanced_rmse,0.5161150177050331,-0.6210662537238946,1.7565188307577582
-augmented_minus_base,participant_balanced_r2,-0.0017365287548921637,-0.005923348886307628,0.0020818672189635086

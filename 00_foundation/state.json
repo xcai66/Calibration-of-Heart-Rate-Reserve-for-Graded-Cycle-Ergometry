@@ -1,0 +1,25 @@
+{
+  "project": "cycling_hrr_transfer",
+  "mode": "compose",
+  "paper_type": "methods",
+  "language_outputs": ["English", "Simplified Chinese"],
+  "journal_style": "generic SCIE sport and exercise science",
+  "one_sentence_argument_locked": true,
+  "empirical_mode": "graded cycle ergometry",
+  "model_locked": {
+    "name": "CycHRR-T",
+    "family": "normalized quadratic tail",
+    "tau": 0.90,
+    "kappa": 5.75
+  },
+  "primary_target": "VO2R",
+  "primary_unit": "complete graded-test file",
+  "external_unit": "ACTES participant",
+  "holdout_opened_after_lock": true,
+  "foundation_score_10": 9.4,
+  "remaining_blockers": [
+    "target journal not fixed",
+    "final public code repository DOI not yet minted",
+    "main graded dataset lacks participant identifiers"
+  ]
+}
