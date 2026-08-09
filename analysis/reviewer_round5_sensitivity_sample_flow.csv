@@ -1,7 +1,0 @@
-rule,selected_pairs,bidirectionally_unique_pairs,original_primary_pairs_retained,rebuilt_analysis_sessions,interpretation
-Primary 15-180 min,449,443,255,255,Retained counts track IDs from the 255-session primary set; rebuilt counts include newly eligible matches after the rule-specific reconstruction and full quality control.
-15-90 min,401,398,225,232,Retained counts track IDs from the 255-session primary set; rebuilt counts include newly eligible matches after the rule-specific reconstruction and full quality control.
-30-120 min,413,408,232,240,Retained counts track IDs from the 255-session primary set; rebuilt counts include newly eligible matches after the rule-specific reconstruction and full quality control.
-Duration difference <=10 min,363,357,214,220,Retained counts track IDs from the 255-session primary set; rebuilt counts include newly eligible matches after the rule-specific reconstruction and full quality control.
-Delay-priority cost,449,443,255,264,Retained counts track IDs from the 255-session primary set; rebuilt counts include newly eligible matches after the rule-specific reconstruction and full quality control.
-Duration-priority cost,449,443,255,264,Retained counts track IDs from the 255-session primary set; rebuilt counts include newly eligible matches after the rule-specific reconstruction and full quality control.

@@ -2,11 +2,10 @@
 __pycache__/
 *.py[cod]
 .venv/
-venv/
+.figure_env/
 node_modules/
-source/pmdata/
-external_validation/data/raw/
-figures_improved/
-qa_*/
-*.tmp
-*.log
+02_data/raw/
+07_review/docx_renders_*/
+07_review/workbook_previews_*/
+*.inspect.ndjson
+04_results/figures/*.tiff

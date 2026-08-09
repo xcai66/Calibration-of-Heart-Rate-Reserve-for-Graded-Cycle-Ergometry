@@ -1,22 +1,27 @@
 cff-version: 1.2.0
-message: "If you use this software or its derived outputs, please cite the archived release and the PMData source paper."
-title: "tHRR-I-PMData: development and external construct evaluation of a bounded tail-sensitive heart-rate-reserve index"
+message: "If you use CycHRR-T, cite the accompanying manuscript and the two source datasets."
+title: "CycHRR-T: an endpoint-preserving heart-rate-reserve calibration for graded cycle ergometry"
 type: software
+version: 2.0.0
+date-released: 2026-08-08
 authors:
   - family-names: Cai
     given-names: BoTao
-    affiliation: "College of Physical Education, Jimei University"
-version: 1.2.1
-date-released: 2026-08-01
-doi: "10.5281/zenodo.21742204"
-license: MIT
+    email: xcai2004xcai@gmail.com
+    affiliation: College of Physical Education, Jimei University
+    orcid: "https://orcid.org/0009-0002-3662-4539"
 repository-code: "https://github.com/xcai66/tHRR-I-PMData"
+license: MIT
 keywords:
-  - heart rate reserve
-  - internal training load
-  - running
-  - wearable sensors
-  - perceived exertion
-  - nested cross-validation
-  - external construct evaluation
-  - repeated measures
+  - cycling
+  - heart-rate reserve
+  - oxygen-uptake reserve
+  - exercise intensity
+  - external validation
+references:
+  - type: dataset
+    title: "Graded Incremental Test Data (Cycling, Running, Kayaking, Rowing): an open access dataset"
+    doi: 10.5281/zenodo.10841412
+  - type: dataset
+    title: "Cardiorespiratory measurement from graded cycloergometer exercise testing"
+    doi: 10.13026/2qs3-kh43

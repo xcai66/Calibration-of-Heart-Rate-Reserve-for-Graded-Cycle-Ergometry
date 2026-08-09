@@ -1,0 +1,33 @@
+dataset,target,label,model,mae,ci_low,ci_high,n_units
+Graded-test temporal holdout,vo2r,"Temporal
+VO$_2$R",raw_linear,0.06169785440145423,0.049981014157976754,0.07976008418051929,84
+Graded-test temporal holdout,vo2r,"Temporal
+VO$_2$R",scaled_linear,0.05080994304814554,0.03991378666332635,0.06809050185674564,84
+Graded-test temporal holdout,vo2r,"Temporal
+VO$_2$R",affine_linear,0.05041910136941473,0.039634968429711266,0.06715377138775018,84
+Graded-test temporal holdout,vo2r,"Temporal
+VO$_2$R",cycling_tail,0.050950039690327416,0.0399797085761053,0.06833950792484311,84
+Graded-test temporal holdout,load_fraction,"Temporal
+load fraction",raw_linear,0.04611763534937392,0.04096812082138853,0.05165017499572844,84
+Graded-test temporal holdout,load_fraction,"Temporal
+load fraction",scaled_linear,0.04348069235364839,0.03937459008046566,0.0477274652821907,84
+Graded-test temporal holdout,load_fraction,"Temporal
+load fraction",affine_linear,0.04304632894945171,0.038933877203961666,0.04740394044310808,84
+Graded-test temporal holdout,load_fraction,"Temporal
+load fraction",cycling_tail,0.03985482781071593,0.03597893155200111,0.04416383790001936,84
+ACTES external validation,vo2r,"External
+VO$_2$R",raw_linear,0.07169729589913638,0.05871989171412868,0.08613582544725001,18
+ACTES external validation,vo2r,"External
+VO$_2$R",scaled_linear,0.05887645670889284,0.04881827404053947,0.07045029981533106,18
+ACTES external validation,vo2r,"External
+VO$_2$R",affine_linear,0.06168993702809346,0.051292701613454436,0.07378431849641033,18
+ACTES external validation,vo2r,"External
+VO$_2$R",cycling_tail,0.05794281122968111,0.048106397900801616,0.06900180903988974,18
+ACTES external validation,power_fraction,"External
+power fraction",raw_linear,0.10321211906191133,0.08356367300322926,0.12476835585848807,18
+ACTES external validation,power_fraction,"External
+power fraction",scaled_linear,0.08615288188715306,0.06795329755496334,0.10578431284460146,18
+ACTES external validation,power_fraction,"External
+power fraction",affine_linear,0.08451939607043288,0.06601123442734122,0.1038265578423433,18
+ACTES external validation,power_fraction,"External
+power fraction",cycling_tail,0.08073148398336419,0.0634521361831083,0.10019249440966144,18

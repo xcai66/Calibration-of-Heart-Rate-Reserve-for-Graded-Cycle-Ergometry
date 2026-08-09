@@ -1,19 +1,13 @@
-# Current release checklist
+# Release checklist
 
-## Completed for v1.2.1
+- [x] Analysis code compiles and five implementation tests pass.
+- [x] Locked validation and all robustness tables are present.
+- [x] Figures 1-3 pass strict static preflight and visual QA.
+- [x] English and Chinese Word/PDF manuscripts pass page-level rendering QA.
+- [x] Fourteen references and DOI fields are synchronized.
+- [x] ORCID is present in manuscript and repository metadata.
+- [x] Simulated reviewer reports and obsolete figures are absent.
+- [ ] Create the GitHub release for tag `v2.0.0` after final repository review.
+- [ ] Enable/archive the release in Zenodo and insert the resulting version DOI in the manuscript and citation metadata.
+- [ ] Apply the selected journal's submission format and cover-letter address.
 
-- [x] Clarify that the central round-5 comparison is mean HRR versus mean HRR plus Δtilt with participant-balanced MAE used for inner selection.
-- [x] Label the older Spearman-driven formula-family selection as an exploratory sensitivity analysis.
-- [x] Re-render and visually inspect all 17 pages of the statistical appendix.
-- [x] Confirm that formulas, samples, scripts, figures, and numerical results match the frozen final analysis.
-- [x] Publish GitHub release `v1.2.1` and archive the exact release on Zenodo at version DOI `10.5281/zenodo.21742204`.
-- [x] Record the version-specific DOI on `main` and synchronize the submission package.
-
-## Final integrity checks
-
-- [x] Rerun PMData from provider-distributed source files with the pinned Python environment.
-- [x] Rerun WEEE and Malaga analyses without retuning λ.
-- [x] Rebuild and inspect all five main figures and the statistical appendix.
-- [x] Confirm that no third-party raw data are included in the release tree.
-- [x] Parse-check Python and JSON files and retain the public reproduction report.
-- [x] Retain only the maintained `v1.2.1` GitHub release and tag.

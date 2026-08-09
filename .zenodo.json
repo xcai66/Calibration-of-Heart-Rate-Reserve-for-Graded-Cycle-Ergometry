@@ -1,25 +1,35 @@
 {
-  "title": "tHRR-I-PMData: development and external construct evaluation of a bounded tail-sensitive heart-rate-reserve index",
-  "description": "Reproducible code, frozen derived results, protocols, and figures for exploratory PMData method development and locked external construct evaluation in WEEE and the University of Malaga treadmill dataset. The release includes selection-aware PMData analyses, a matching negative control, repeated-measures WEEE analyses, device agreement with uncertainty, synchronization audits, and Malaga endpoint and anchor sensitivity analyses. Original code is licensed under the MIT License. Third-party raw data are not redistributed.",
+  "title": "CycHRR-T: endpoint-preserving heart-rate-reserve calibration for graded cycle ergometry",
+  "description": "Version 2.0.0 replaces the former broad free-living activity-score analysis with a reproducible graded cycle-ergometry calibration study. It includes deterministic data splits, locked-model evaluation, strong linear comparators, endpoint-exclusion and intensity-band analyses, practical 10% agreement, timing, parameter, and heart-rate-anchor sensitivity, bilingual manuscripts, figures, and source-data tables.",
   "upload_type": "software",
+  "access_right": "open",
+  "license": "mit",
   "creators": [
     {
       "name": "Cai, BoTao",
-      "affiliation": "College of Physical Education, Jimei University"
+      "affiliation": "College of Physical Education, Jimei University",
+      "orcid": "0009-0002-3662-4539"
     }
   ],
-  "access_right": "open",
-  "license": "mit-license",
   "keywords": [
-    "heart rate reserve",
-    "internal training load",
-    "running",
-    "wearable sensors",
-    "perceived exertion",
-    "nested cross-validation",
-    "external construct evaluation",
-    "repeated measures",
-    "oxygen uptake"
+    "cycling",
+    "heart-rate reserve",
+    "oxygen-uptake reserve",
+    "exercise intensity",
+    "external validation",
+    "open data"
   ],
-  "version": "1.2.1"
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.10841412",
+      "relation": "isSupplementedBy",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.13026/2qs3-kh43",
+      "relation": "isSupplementedBy",
+      "scheme": "doi"
+    }
+  ]
 }
+

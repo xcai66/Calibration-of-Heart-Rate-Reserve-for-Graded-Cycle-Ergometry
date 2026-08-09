@@ -1,7 +1,0 @@
-comparison,scale,estimate,ci_low,ci_high,participants
-nonlinear_minus_linear,median paired difference in participant-level Spearman rho,0.04358883808553726,-0.01791947164300907,0.2699881912872517,9
-nonlinear_minus_mean_hrr,median paired difference in participant-level Spearman rho,0.07264806347589547,-0.01791947164300907,0.27384864333322434,9
-nonlinear_minus_banister_trimp,median paired difference in participant-level Spearman rho,0.23145322852204825,0.012426195938144091,0.4791120193180106,9
-nonlinear_minus_linear,participant-balanced MAE difference (RPE units; negative favors nonlinear),0.051617974557416645,-0.10494842751590627,0.28018542060880175,15
-nonlinear_minus_mean_hrr,participant-balanced MAE difference (RPE units; negative favors nonlinear),0.03936968455564228,-0.10184765458109554,0.2401201128224809,15
-nonlinear_minus_banister_trimp,participant-balanced MAE difference (RPE units; negative favors nonlinear),0.026341559494104563,-0.2369244511436415,0.2882981463523876,15

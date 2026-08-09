@@ -1,9 +1,9 @@
-# Data and derived-material licence
+# Data licenses and attribution
 
-The original analysis code in this repository is licensed under the MIT License.
+This repository redistributes only source files required for reproducibility and retains their original attribution.
 
-PMData was created and released by its original authors under the Creative Commons Attribution-NonCommercial 4.0 International licence. Raw PMData files are not redistributed here. The source dataset must be obtained from the original Simula or OSF record.
+- **Graded Incremental Test Data, version 2**: DOI `10.5281/zenodo.10841412`; licensed CC BY 4.0 by the dataset creators.
+- **ACTES / Cardiorespiratory measurement from graded cycloergometer exercise testing, version 1.0.0**: DOI `10.13026/2qs3-kh43`; distributed under the PhysioNet Open Data Commons Attribution License.
 
-The frozen session-level tables, numerical source data, and figures in this repository were derived from PMData and are supplied for non-commercial research reproducibility. Reuse must comply with the original PMData CC BY-NC 4.0 terms and must attribute the PMData creators and source publication.
+The original license text and detailed provenance are stored in `01_sources/`. Analysis code is licensed under the repository MIT License. The manuscripts and newly generated figures remain subject to the author's scholarly use and any later journal publishing agreement.
 
-Nothing in the MIT License grants rights over PMData or overrides the original dataset licence.
