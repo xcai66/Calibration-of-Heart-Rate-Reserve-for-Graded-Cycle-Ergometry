@@ -422,13 +422,18 @@ def build_manuscript(source, output, figures_dir, chinese=False):
             i += 1
             continue
 
-        placeholder = re.search(r"(?:Insert Figure\s*|插入图\s*)(\d)", stripped)
-        if placeholder:
-            number = int(placeholder.group(1))
-            candidates = sorted(figures_dir.glob(f"Figure_{number}_*.png"))
-            if not candidates:
-                raise FileNotFoundError(f"Figure {number} PNG not found")
-            add_figure(doc, number, candidates[0], chinese=chinese)
+        figure_markdown = re.match(r"!\[(?:Figure|图)\s*(\d)[^\]]*\]\(([^)]+)\)", stripped)
+        if figure_markdown:
+            number = int(figure_markdown.group(1))
+            linked_path = (source.parent / figure_markdown.group(2)).resolve()
+            if linked_path.exists():
+                figure_path = linked_path
+            else:
+                candidates = sorted(figures_dir.glob(f"Figure_{number}_*.png"))
+                if not candidates:
+                    raise FileNotFoundError(f"Figure {number} PNG not found")
+                figure_path = candidates[0]
+            add_figure(doc, number, figure_path, chinese=chinese)
             i += 1
             continue
 

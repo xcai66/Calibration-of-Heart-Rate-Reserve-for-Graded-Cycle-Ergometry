@@ -1,16 +1,17 @@
 cff-version: 1.2.0
 message: "If you use CycHRR-T, cite the accompanying manuscript and the two source datasets."
-title: "CycHRR-T: an endpoint-preserving heart-rate-reserve calibration for graded cycle ergometry"
+title: "Calibration of Heart-Rate Reserve for Graded Cycle Ergometry: An Endpoint-Preserving Transfer Evaluated Against Linear Alternatives"
 type: software
 version: 2.0.0
-date-released: 2026-08-08
+date-released: 2026-08-09
+doi: "10.5281/zenodo.21689574"
 authors:
   - family-names: Cai
     given-names: BoTao
     email: xcai2004xcai@gmail.com
     affiliation: College of Physical Education, Jimei University
     orcid: "https://orcid.org/0009-0002-3662-4539"
-repository-code: "https://github.com/xcai66/tHRR-I-PMData"
+repository-code: "https://github.com/xcai66/Calibration-of-Heart-Rate-Reserve-for-Graded-Cycle-Ergometry"
 license: MIT
 keywords:
   - cycling

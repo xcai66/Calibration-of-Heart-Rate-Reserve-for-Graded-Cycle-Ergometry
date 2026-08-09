@@ -1,16 +1,23 @@
 # CycHRR-T v2.0.0
 
-Version 2.0.0 is a scientific-scope replacement of the earlier tHRR-I/PMData work. The repository now supports the manuscript **“Calibration of Heart-Rate Reserve for Graded Cycle Ergometry: An Endpoint-Preserving Transfer Evaluated Against Linear Alternatives.”**
+This release supports the manuscript **“Calibration of Heart-Rate Reserve for Graded Cycle Ergometry: An Endpoint-Preserving Transfer Evaluated Against Linear Alternatives.”**
 
-## Main changes
+## Scope
 
-- Focused the use case on controlled graded cycle ergometry.
-- Selected and locked the mapping using development-only data, with 84 temporal-holdout cycling test files and 18 external ACTES participants.
-- Added development-fitted scaled and affine linear comparators.
-- Added endpoint-exclusion, observed-HRR-band, 10% category-agreement, time-offset, parameter, and HR-anchor sensitivity analyses.
-- Reframed the contribution as an endpoint-preserving group calibration, not a universally superior nonlinear model or validated training-load score.
-- Rebuilt bilingual manuscripts, submission figures, source-data workbook, citation metadata, and reproducible analysis code.
-- Added ORCID `0009-0002-3662-4539` for BoTao Cai.
+CycHRR-T is a bounded, endpoint-preserving group calibration of heart-rate reserve for concurrent intensity estimation during graded cycle ergometry. It is not presented as a general fatigue, recovery, injury-risk, or free-living training-load score.
 
-No version-specific Zenodo DOI is claimed until this release is archived.
+## Main additions
 
+- Deterministic development and temporal holdout splits.
+- Locked-model evaluation against raw HRR and strong development-fitted linear comparators.
+- External laboratory-task validation using the ACTES graded-cycloergometer dataset without refitting.
+- Complete-unit bootstrap uncertainty, endpoint-exclusion, intensity-band, practical-agreement, time-offset, parameter-sensitivity, and heart-rate-anchor analyses.
+- Bilingual manuscripts, submission figures, source-data workbook, formula application utility, and implementation tests.
+
+## Principal result
+
+In 84 temporally held-out cycling test files, CycHRR-T reduced complete-test VO2R mean absolute error from 0.0617 for raw HRR to 0.0510 and increased exact 10% VO2R-band agreement from 50.9% to 59.7%. Performance was similar to development-fitted linear calibration for the primary target, so the release frames CycHRR-T as an interpretable endpoint-preserving calibration rather than a universally superior nonlinear model.
+
+## Licensing and provenance
+
+Analysis code is MIT licensed. Redistributed third-party source data retain the licenses stated in `01_sources/DATA_PROVENANCE_AND_LICENSES.md`. The stable software archive is maintained under Zenodo concept DOI `10.5281/zenodo.21689574`.

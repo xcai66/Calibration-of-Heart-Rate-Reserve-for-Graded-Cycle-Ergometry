@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Reviewer-requested robustness and practical-interpretation analyses.
+"""Robustness and practical-interpretation analyses.
 
 All analyses use the locked CycHRR-T parameters. They do not update the model.
 Complete graded tests and ACTES participants remain the resampling units.
@@ -259,7 +259,7 @@ def main():
     ten_percent_bin_agreement(validation_sets, params_by_target, args.output)
     actes_lag_sensitivity(actes, params_by_target, args.output)
     parameter_sensitivity(validation_sets, args.output)
-    print("Reviewer-requested analyses written to", args.output)
+    print("Robustness analyses written to", args.output)
 
 
 if __name__ == "__main__":

@@ -1,9 +1,9 @@
 {
-  "title": "CycHRR-T: endpoint-preserving heart-rate-reserve calibration for graded cycle ergometry",
-  "description": "Version 2.0.0 replaces the former broad free-living activity-score analysis with a reproducible graded cycle-ergometry calibration study. It includes deterministic data splits, locked-model evaluation, strong linear comparators, endpoint-exclusion and intensity-band analyses, practical 10% agreement, timing, parameter, and heart-rate-anchor sensitivity, bilingual manuscripts, figures, and source-data tables.",
+  "title": "Calibration of Heart-Rate Reserve for Graded Cycle Ergometry: An Endpoint-Preserving Transfer Evaluated Against Linear Alternatives",
+  "description": "Version 2.0.0 provides the reproducible CycHRR-T graded cycle-ergometry calibration study. The release includes deterministic data splits, locked-model evaluation, strong linear comparators, endpoint-exclusion and intensity-band analyses, practical 10% agreement, timing, parameter and heart-rate-anchor sensitivity analyses, bilingual manuscripts, figures and source-data tables. Analysis code is MIT licensed; redistributed third-party datasets retain their original licenses as documented in the archive.",
   "upload_type": "software",
   "access_right": "open",
-  "license": "mit",
+  "license": "other-open",
   "creators": [
     {
       "name": "Cai, BoTao",
@@ -32,4 +32,3 @@
     }
   ]
 }
-

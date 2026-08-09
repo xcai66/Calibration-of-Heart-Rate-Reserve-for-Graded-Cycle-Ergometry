@@ -112,7 +112,7 @@ Secondary outcomes were temporal-holdout workload fraction, quantized estimates,
 
 Scaled-linear and affine-linear comparators were fitted with equal-test weighting in cycling development data. The continuous VO2R comparator parameters were scale=0.9563 and intercept/slope=0.0417/0.9025. The workload parameters were scale=0.9610 and intercept/slope=-0.0114/0.9757. These parameters were transferred unchanged to the temporal holdout. Development VO2R parameters were used for ACTES VO2R, and workload parameters for ACTES power fraction.
 
-Reviewer-driven robustness analyses retained the locked parameters. First, errors were stratified by observed HRR: <0.60, 0.60-<0.80, 0.80-<0.90, and >=0.90. Complete units contributed equally within each band, and the number of units and observations was reported. Second, each unit's maximum target observation was removed to assess endpoint coupling; a separate analysis excluded HRR >=0.95. Third, target and prediction values were assigned to 10% bands. Exact agreement, agreement within one band, and absolute band error were averaged within complete units. These bands are measurement categories, not validated prescription zones.
+Robustness analyses retained the locked parameters. First, errors were stratified by observed HRR: <0.60, 0.60-<0.80, 0.80-<0.90, and >=0.90. Complete units contributed equally within each band, and the number of units and observations was reported. Second, each unit's maximum target observation was removed to assess endpoint coupling; a separate analysis excluded HRR >=0.95. Third, target and prediction values were assigned to 10% bands. Exact agreement, agreement within one band, and absolute band error were averaged within complete units. These bands are measurement categories, not validated prescription zones.
 
 Fourth, ACTES HRR was offset from criterion variables by -30 to +30 seconds in 10-second steps without refitting. Positive values paired a later HR-derived estimate with the current criterion observation. This sensitivity analysis examined ranking stability under plausible synchronization and kinetic mismatch; it was not used to choose an offset. Fifth, eight nearby or fold-motivated parameter pairs were applied post hoc to both validation datasets. Sixth, baseline HR and HRmax were perturbed by -5, 0, or +5 beats/min in the temporal holdout while the physiological target remained fixed. All analyses used deterministic scripts and seed 20260808.
 
@@ -124,7 +124,7 @@ Figure 1 summarizes the data separation and direction screening. Development-onl
 
 Within cycling development data, VO2R MAE was 0.0512 for raw HRR, 0.0426 for scaled linear, 0.0429 for affine linear, and 0.0422 for the selected tail family. Workload-fraction MAE was 0.0463, 0.0428, 0.0425, and 0.0367, respectively. These estimates informed selection and are not reported as final performance.
 
-**[Insert Figure 1 near here]**
+![Figure 1. Development-stage sport screening and analysis workflow.](../04_results/figures/Figure_1_Study_design_and_sport_selection.png)
 
 ### 3.2 Primary temporal validation against raw HRR
 
@@ -132,7 +132,7 @@ In the temporal holdout, continuous CycHRR-T reduced complete-test VO2R MAE from
 
 Workload-fraction MAE decreased from 0.0461 to 0.0399 (difference -0.0063, 95% CI -0.0108 to -0.0015), an absolute reduction of 0.63 percentage points and a 13.6% relative reduction. The 10-band implementation retained smaller improvements: VO2R MAE decreased from 0.0656 to 0.0582 and workload MAE from 0.0576 to 0.0517.
 
-**[Insert Figure 2 near here]**
+![Figure 2. Locked endpoint-preserving transfer and comparator performance.](../04_results/figures/Figure_2_Locked_transfer_and_validation.png)
 
 ### 3.3 Strong linear comparators and endpoint coupling
 
@@ -164,7 +164,7 @@ Post hoc parameter sensitivity showed a flat local region for temporal VO2R: MAE
 
 HR-anchor perturbation materially changed inference (Figure 3D). Increasing HRmax by 5 beats/min reversed the mean temporal VO2R contrast versus raw HRR when baseline HR was unchanged (difference 0.0065). Increasing both baseline and maximal HR by 5 beats/min produced a difference of 0.0122. Resting-HR perturbations alone changed magnitude more than direction. Reliable HR anchors are therefore an application requirement.
 
-**[Insert Figure 3 near here]**
+![Figure 3. Boundary, practical-agreement, and anchor-robustness analyses.](../04_results/figures/Figure_3_Boundary_and_practical_robustness.png)
 
 ## 4. Discussion
 
@@ -218,7 +218,7 @@ CycHRR-T improved concurrent VO2R and normalized workload estimation relative to
 
 ### Ethics statement
 
-No new participants were recruited and no new human data were collected. Only public, deidentified datasets were analyzed. The original data records report their respective ethics approvals and consent procedures [11,12]. The author did not obtain a separate institutional ethics determination for this secondary analysis. A target journal or institution may request written confirmation that analysis of these public data is exempt or outside the scope of human-participant review.
+No new participants were recruited and no new human data were collected. Only public, deidentified datasets were analyzed. The original data records report their respective ethics approvals and consent procedures [11,12]. No separate institutional ethics review or written exemption determination was obtained for this secondary analysis.
 
 ### Consent for publication
 
@@ -242,11 +242,11 @@ Graded Incremental Test Data are available from Zenodo at https://doi.org/10.528
 
 ### Code availability
 
-Analysis code, deterministic split labels, locked parameters, processed result tables, figure-generation code, and document builders are available at https://github.com/xcai66/tHRR-I-PMData. ORCID: https://orcid.org/0009-0002-3662-4539. A version-specific archival DOI should be inserted after the revised repository release has been deposited by Zenodo; no DOI is claimed for files that have not yet been archived.
+Analysis code, deterministic split labels, locked parameters, processed result tables, figure-generation code, and document builders are available at https://github.com/xcai66/Calibration-of-Heart-Rate-Reserve-for-Graded-Cycle-Ergometry. The versioned software archive is maintained under the Zenodo concept DOI https://doi.org/10.5281/zenodo.21689574. ORCID: https://orcid.org/0009-0002-3662-4539.
 
 ### Use of generative artificial intelligence
 
-A generative AI system was used for language editing, document organization, and code assistance. The author remains responsible for study decisions, source and reference verification, statistical interpretation, and the final manuscript. This statement should be adapted to the selected journal's policy.
+A generative AI system was used for language editing, document organization, and code assistance. The author remains responsible for study decisions, source and reference verification, statistical interpretation, and the final manuscript.
 
 ## References
 

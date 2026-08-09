@@ -32,7 +32,7 @@ Can a fixed endpoint-preserving transformation improve graded cycling-intensity 
 - Ten-bin HRR representation matching the INTERLIVE framework.
 - Strong comparators: development-fitted scaled-linear and affine-linear models.
 - Anchor sensitivity: resting HR and maximal HR perturbed by plus or minus 5 beats/min.
-- Reviewer-requested robustness: intensity bands, endpoint removal, 10% band agreement, ACTES time offsets, and nearby parameter sets.
+- Robustness analyses: intensity bands, endpoint removal, 10% band agreement, ACTES time offsets, and nearby parameter sets.
 
 ## Direction-selection rule
 

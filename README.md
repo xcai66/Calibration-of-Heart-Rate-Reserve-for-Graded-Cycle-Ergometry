@@ -1,4 +1,4 @@
-# CycHRR-T
+# Calibration of Heart-Rate Reserve for Graded Cycle Ergometry
 
 CycHRR-T is a reproducible methods project evaluating a bounded, endpoint-preserving group calibration of heart-rate reserve (HRR) for concurrent intensity estimation in graded cycle ergometry.
 
@@ -82,7 +82,7 @@ The development dataset is licensed CC BY 4.0 by its creators. ACTES is distribu
 
 ## Citation
 
-The public repository is https://github.com/xcai66/tHRR-I-PMData. Cite the accompanying manuscript and both source datasets. A new version-specific Zenodo DOI should be inserted only after the revised release has been archived.
+The public repository is https://github.com/xcai66/Calibration-of-Heart-Rate-Reserve-for-Graded-Cycle-Ergometry. Versioned releases are maintained under the stable Zenodo concept DOI [10.5281/zenodo.21689574](https://doi.org/10.5281/zenodo.21689574). Cite the accompanying manuscript, the relevant archived software version, and both source datasets.
 
 ## Contact
 

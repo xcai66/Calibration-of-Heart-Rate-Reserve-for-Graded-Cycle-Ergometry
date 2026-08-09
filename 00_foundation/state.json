@@ -19,7 +19,7 @@
   "foundation_score_10": 9.4,
   "remaining_blockers": [
     "target journal not fixed",
-    "final public code repository DOI not yet minted",
+    "software releases use Zenodo concept DOI 10.5281/zenodo.21689574",
     "main graded dataset lacks participant identifiers"
   ]
 }

@@ -1,13 +1,11 @@
 # Cover letter draft
 
-[DATE]
-
 Editor-in-Chief  
-[TARGET JOURNAL]
+Journal Editorial Office
 
 Dear Editor,
 
-Please consider our manuscript, “Calibration of Heart-Rate Reserve for Graded Cycle Ergometry: An Endpoint-Preserving Transfer Evaluated Against Linear Alternatives,” for publication as an Original Research article in [TARGET JOURNAL].
+Please consider our manuscript, “Calibration of Heart-Rate Reserve for Graded Cycle Ergometry: An Endpoint-Preserving Transfer Evaluated Against Linear Alternatives,” for publication as an Original Research Article.
 
 This methods study addresses a practical limitation in heart-rate-based activity scoring. The INTERLIVE Network proposed transparent aggregation of time in 10% heart-rate-reserve clusters, but raw HRR is not a universal metabolic calibration. Using public graded-exercise data, we compared four candidate sport directions and several monotonic transformations while withholding the latest 30% of dated test files. We then locked a bounded, endpoint-preserving transfer and evaluated it in 84 temporally held-out cycling test files and an external PhysioNet cycling task with 18 participants.
 

@@ -78,7 +78,7 @@ def build_readme(book: Workbook) -> None:
         ("Temporal validation", "Latest-date 30% of cycling test files; 84 analysis units"),
         ("External validation", "ACTES PhysioNet; 18 participants"),
         ("Interpretation", "Negative MAE difference favors CycHRR-T; nonlinear superiority was not general"),
-        ("Repository", "https://github.com/xcai66/tHRR-I-PMData"),
+        ("Repository", "https://github.com/xcai66/Calibration-of-Heart-Rate-Reserve-for-Graded-Cycle-Ergometry"),
         ("Author ORCID", "https://orcid.org/0009-0002-3662-4539"),
     ]
     for row_index, row in enumerate(rows, start=3):
