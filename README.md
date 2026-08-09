@@ -82,7 +82,7 @@ The development dataset is licensed CC BY 4.0 by its creators. ACTES is distribu
 
 ## Citation
 
-The public repository is https://github.com/xcai66/Calibration-of-Heart-Rate-Reserve-for-Graded-Cycle-Ergometry. Versioned releases are maintained under the stable Zenodo concept DOI [10.5281/zenodo.21689574](https://doi.org/10.5281/zenodo.21689574). Cite the accompanying manuscript, the relevant archived software version, and both source datasets.
+The public repository is https://github.com/xcai66/Calibration-of-Heart-Rate-Reserve-for-Graded-Cycle-Ergometry. The v2.0.0 software archive is [10.5281/zenodo.21860652](https://doi.org/10.5281/zenodo.21860652), and future versions remain linked by the stable concept DOI [10.5281/zenodo.21689574](https://doi.org/10.5281/zenodo.21689574). Cite the accompanying manuscript, the relevant archived software version, and both source datasets.
 
 ## Contact
 

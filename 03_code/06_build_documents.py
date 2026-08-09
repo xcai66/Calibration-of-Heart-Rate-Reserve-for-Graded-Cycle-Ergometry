@@ -496,6 +496,17 @@ def build_short(source, output, title, chinese=False, letter=False):
     doc = Document()
     configure_section(doc.sections[0], landscape=False)
     configure_styles(doc, chinese=chinese)
+    if title == "Title page and declarations":
+        section = doc.sections[0]
+        section.top_margin = Cm(1.8)
+        section.bottom_margin = Cm(1.8)
+        normal = doc.styles["Normal"]
+        normal.font.size = Pt(10)
+        normal.paragraph_format.line_spacing = 1.15
+        normal.paragraph_format.space_after = Pt(4)
+        for heading_name in ("Heading 1", "Heading 2"):
+            doc.styles[heading_name].paragraph_format.space_before = Pt(6)
+            doc.styles[heading_name].paragraph_format.space_after = Pt(3)
     if letter:
         section = doc.sections[0]
         section.left_margin = Cm(2.0)
@@ -545,7 +556,7 @@ def main():
     build_manuscript(manuscripts / "English_Manuscript.md", manuscripts / "English_Manuscript.docx", figures, False)
     build_manuscript(manuscripts / "Chinese_Manuscript.md", manuscripts / "Chinese_Manuscript.docx", figures, True)
     build_short(submission / "Title_Page_and_Declarations.md", submission / "Title_Page_and_Declarations.docx", "Title page and declarations")
-    build_short(submission / "Cover_Letter_Draft.md", submission / "Cover_Letter_Draft.docx", "Cover letter draft", letter=True)
+    build_short(submission / "Cover_Letter_Draft.md", submission / "Cover_Letter_Draft.docx", "Cover letter", letter=True)
     build_short(submission / "Highlights.md", submission / "Highlights.docx", "Highlights")
 
 

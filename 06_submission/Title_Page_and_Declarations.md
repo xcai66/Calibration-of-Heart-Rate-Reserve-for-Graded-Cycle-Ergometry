@@ -56,7 +56,7 @@ The development dataset is available from Zenodo at https://doi.org/10.5281/zeno
 
 ## Code availability
 
-The complete reproducible analysis is available at https://github.com/xcai66/Calibration-of-Heart-Rate-Reserve-for-Graded-Cycle-Ergometry. Versioned software archives are maintained under the Zenodo concept DOI https://doi.org/10.5281/zenodo.21689574.
+The complete reproducible analysis is available at https://github.com/xcai66/Calibration-of-Heart-Rate-Reserve-for-Graded-Cycle-Ergometry. The archived v2.0.0 release is available at https://doi.org/10.5281/zenodo.21860652; future versions are maintained under the Zenodo concept DOI https://doi.org/10.5281/zenodo.21689574.
 
 ## Acknowledgements
 

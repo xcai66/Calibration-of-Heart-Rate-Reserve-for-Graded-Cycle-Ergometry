@@ -1,4 +1,4 @@
-# Cover letter draft
+# Cover letter
 
 Editor-in-Chief  
 Journal Editorial Office

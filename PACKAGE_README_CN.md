@@ -38,6 +38,8 @@
 
 资料包采用通用体育学 SCIE 初次投稿结构。伦理声明如实报告本研究仅使用公开去标识数据，且本次二次分析未另行取得机构伦理审查或书面豁免认定。
 
+公开代码仓库为 https://github.com/xcai66/Calibration-of-Heart-Rate-Reserve-for-Graded-Cycle-Ergometry。v2.0.0 软件归档 DOI 为 https://doi.org/10.5281/zenodo.21860652，稳定概念 DOI 为 https://doi.org/10.5281/zenodo.21689574。
+
 ## 重要边界
 
 本研究不证明腕式 Apple Watch 心率准确性，也不支持将 CycHRR-T 直接解释为疲劳、训练负荷、恢复、伤病风险、临床结局或返回比赛标准。文章的主要价值是提供一个经时间外和外部实验室任务检验、实现透明、适用于分级自行车测功的端点保持群体 HRR 校准，同时明确其并未普遍优于线性校准。

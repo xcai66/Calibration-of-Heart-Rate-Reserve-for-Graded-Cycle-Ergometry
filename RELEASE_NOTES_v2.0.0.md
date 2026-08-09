@@ -20,4 +20,4 @@ In 84 temporally held-out cycling test files, CycHRR-T reduced complete-test VO2
 
 ## Licensing and provenance
 
-Analysis code is MIT licensed. Redistributed third-party source data retain the licenses stated in `01_sources/DATA_PROVENANCE_AND_LICENSES.md`. The stable software archive is maintained under Zenodo concept DOI `10.5281/zenodo.21689574`.
+Analysis code is MIT licensed. Redistributed third-party source data retain the licenses stated in `01_sources/DATA_PROVENANCE_AND_LICENSES.md`. The v2.0.0 archive DOI is `10.5281/zenodo.21860652`, and future versions are linked by Zenodo concept DOI `10.5281/zenodo.21689574`.

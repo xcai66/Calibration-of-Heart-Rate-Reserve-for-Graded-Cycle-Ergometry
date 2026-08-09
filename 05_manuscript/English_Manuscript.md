@@ -242,7 +242,7 @@ Graded Incremental Test Data are available from Zenodo at https://doi.org/10.528
 
 ### Code availability
 
-Analysis code, deterministic split labels, locked parameters, processed result tables, figure-generation code, and document builders are available at https://github.com/xcai66/Calibration-of-Heart-Rate-Reserve-for-Graded-Cycle-Ergometry. The versioned software archive is maintained under the Zenodo concept DOI https://doi.org/10.5281/zenodo.21689574. ORCID: https://orcid.org/0009-0002-3662-4539.
+Analysis code, deterministic split labels, locked parameters, processed result tables, figure-generation code, and document builders are available at https://github.com/xcai66/Calibration-of-Heart-Rate-Reserve-for-Graded-Cycle-Ergometry. The archived v2.0.0 release is available at https://doi.org/10.5281/zenodo.21860652; future versions are maintained under the Zenodo concept DOI https://doi.org/10.5281/zenodo.21689574. ORCID: https://orcid.org/0009-0002-3662-4539.
 
 ### Use of generative artificial intelligence
 

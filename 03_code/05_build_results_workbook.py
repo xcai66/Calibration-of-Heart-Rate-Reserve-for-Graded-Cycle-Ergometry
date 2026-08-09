@@ -79,6 +79,7 @@ def build_readme(book: Workbook) -> None:
         ("External validation", "ACTES PhysioNet; 18 participants"),
         ("Interpretation", "Negative MAE difference favors CycHRR-T; nonlinear superiority was not general"),
         ("Repository", "https://github.com/xcai66/Calibration-of-Heart-Rate-Reserve-for-Graded-Cycle-Ergometry"),
+        ("Archived release", "https://doi.org/10.5281/zenodo.21860652"),
         ("Author ORCID", "https://orcid.org/0009-0002-3662-4539"),
     ]
     for row_index, row in enumerate(rows, start=3):

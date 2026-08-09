@@ -240,7 +240,7 @@ Graded Incremental Test Data 可从 Zenodo 获取：https://doi.org/10.5281/zeno
 
 ### 代码可得性
 
-分析代码、确定性拆分标签、锁定参数、处理后结果表、制图代码和文档构建文件可从 https://github.com/xcai66/Calibration-of-Heart-Rate-Reserve-for-Graded-Cycle-Ergometry 获取。版本化软件归档由 Zenodo 概念 DOI https://doi.org/10.5281/zenodo.21689574 持续维护。ORCID：https://orcid.org/0009-0002-3662-4539。
+分析代码、确定性拆分标签、锁定参数、处理后结果表、制图代码和文档构建文件可从 https://github.com/xcai66/Calibration-of-Heart-Rate-Reserve-for-Graded-Cycle-Ergometry 获取。v2.0.0 归档版本可从 https://doi.org/10.5281/zenodo.21860652 获取，后续版本由 Zenodo 概念 DOI https://doi.org/10.5281/zenodo.21689574 持续维护。ORCID：https://orcid.org/0009-0002-3662-4539。
 
 ### 生成式人工智能使用声明
 
