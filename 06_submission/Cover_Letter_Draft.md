@@ -19,7 +19,7 @@ Thank you for considering this work. I would be pleased to respond to any questi
 
 Sincerely,
 
-BoTao Cai  
+Botao Cai
 College of Physical Education, Jimei University  
 Xiamen, Fujian, China  
 xcai2004xcai@gmail.com  

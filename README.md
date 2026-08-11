@@ -86,4 +86,4 @@ The public repository is https://github.com/xcai66/Calibration-of-Heart-Rate-Res
 
 ## Contact
 
-BoTao Cai, College of Physical Education, Jimei University, Xiamen, Fujian, China. Email: xcai2004xcai@gmail.com. ORCID: https://orcid.org/0009-0002-3662-4539.
+Botao Cai, College of Physical Education, Jimei University, Xiamen, Fujian, China. Email: xcai2004xcai@gmail.com. ORCID: https://orcid.org/0009-0002-3662-4539.

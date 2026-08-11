@@ -2,11 +2,11 @@
 
 **Running title:** Endpoint-preserving HRR calibration
 
-**Author:** BoTao Cai
+**Author:** Botao Cai
 
 **Affiliation:** College of Physical Education, Jimei University, Xiamen, Fujian, China
 
-**Corresponding author:** BoTao Cai, xcai2004xcai@gmail.com
+**Corresponding author:** Botao Cai, xcai2004xcai@gmail.com
 
 **ORCID:** 0009-0002-3662-4539
 
@@ -234,7 +234,7 @@ The author declares no competing interests.
 
 ### Author contributions
 
-BoTao Cai: conceptualization, methodology, software, formal analysis, investigation, data curation, visualization, writing of the original draft, review and editing, and project administration.
+Botao Cai: conceptualization, methodology, software, formal analysis, investigation, data curation, visualization, writing of the original draft, review and editing, and project administration.
 
 ### Data availability
 

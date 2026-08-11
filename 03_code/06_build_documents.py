@@ -486,7 +486,7 @@ def build_manuscript(source, output, figures_dir, chinese=False):
         i += 1
 
     doc.core_properties.title = lines[0].lstrip("# ")
-    doc.core_properties.author = "BoTao Cai"
+    doc.core_properties.author = "Botao Cai"
     doc.core_properties.subject = "Cycling-specific heart-rate-reserve transfer function"
     output.parent.mkdir(parents=True, exist_ok=True)
     doc.save(output)
@@ -540,7 +540,7 @@ def build_short(source, output, title, chinese=False, letter=False):
             if letter:
                 p.alignment = WD_ALIGN_PARAGRAPH.LEFT
     doc.core_properties.title = title
-    doc.core_properties.author = "BoTao Cai"
+    doc.core_properties.author = "Botao Cai"
     output.parent.mkdir(parents=True, exist_ok=True)
     doc.save(output)
 

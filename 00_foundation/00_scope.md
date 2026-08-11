@@ -58,7 +58,7 @@ The duration-weighted mean of g(h), and that mean multiplied by duration, are im
 
 ## Administrative facts
 
-- Author: BoTao Cai (蔡伯韬).
+- Author: Botao Cai (蔡伯韬).
 - Affiliation: College of Physical Education, Jimei University, Xiamen, Fujian, China.
 - Email: xcai2004xcai@gmail.com.
 - Funding: none reported.
